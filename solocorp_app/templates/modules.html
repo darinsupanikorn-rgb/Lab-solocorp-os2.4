@@ -1,0 +1,50 @@
+{% extends "base.html" %}
+{% block body %}
+<h2>จัดการโมดูล (Modules)</h2>
+<p>
+  สรุป registry &mdash;
+  connected: <b>{{ summary.connected_count }}</b>,
+  enabled: <b>{{ summary.enabled_count }}</b>,
+  disabled: <b>{{ summary.disabled_count }}</b>,
+  error: <b>{{ summary.error_count }}</b>,
+  valid: <b>{{ summary.valid }}</b>
+</p>
+<table>
+<thead>
+<tr>
+  <th>โมดูล</th><th>สถานะตั้งค่า (config)</th><th>สถานะจริงจากรันไทม์</th><th>คำอธิบาย</th><th>ควบคุมจาก UI</th>
+</tr>
+</thead>
+<tbody>
+{% for module_id, m in modules.items() %}
+<tr>
+  <td><code>{{ module_id }}</code></td>
+  <td><span class="badge {{ m.status }}">{{ m.status }}</span></td>
+  <td>
+    {% if m.last_checked %}{{ m.status }} <span class="hint">({{ m.last_checked }})</span>{% else %}{{ m.status }}{% endif %}
+    {% if m.last_error %} <span class="hint">| {{ m.last_error }}</span>{% endif %}
+  </td>
+  <td>{{ m.description }}</td>
+  <td>
+    <form method="post" action="/modules/{{ module_id }}/toggle" style="display:inline">
+      {% if m.status == "disabled" %}
+      <button name="status" value="enabled" class="btn btn-sm btn-success">เปิด</button>
+      {% else %}
+      <button name="status" value="disabled" class="btn btn-sm btn-danger">ปิด</button>
+      {% endif %}
+    </form>
+  </td>
+</tr>
+{% endfor %}
+</tbody>
+</table>
+
+<p class="hint">
+  เปิด/ปิด <b>content-creator</b> จากหน้านี้จะเขียนลง <code>config/module-registry.json</code> (tracked ใน git) ทันที &mdash;
+  รันไทม์จะ <b>ไม่แตะไฟล์ config</b> ขณะเช็กสถานะ (เขียนเฉพาะไฟล์ state ที่ไม่ track เท่านั้น).
+</p>
+<p class="hint">
+  หมายเหตุ: การเปิด/ปิดนี้เปลี่ยน <b>intent</b> ของโมดูล (enabled/disabled). การเชื่อมต่อจริง (connected/connected/error)
+  เป็นข้อสังเกตจาก module host ซึ่งอัปเดตแยกต่างหาก.
+</p>
+{% endblock %}

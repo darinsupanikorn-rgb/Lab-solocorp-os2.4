@@ -1,0 +1,35 @@
+* { box-sizing: border-box; }
+body { font-family: system-ui, -apple-system, Segoe UI, Roboto, "Noto Sans Thai", sans-serif; margin: 0; color: #1f2937; line-height: 1.5; }
+header { background: #0f172a; color: #fff; padding: 0.75rem 1.5rem; display: flex; align-items: center; gap: 1.5rem; }
+.brand { font-weight: 700; font-size: 1.25rem; letter-spacing: 0.05em; }
+nav a { color: #cbd5e1; text-decoration: none; margin-right: 1.25rem; font-size: 0.95rem; }
+nav a:hover { color: #fff; }
+main { max-width: 900px; margin: 1.5rem auto; padding: 0 1rem; }
+h1, h2 { color: #0f172a; }
+table { width: 100%; border-collapse: collapse; margin: 1rem 0; background: #fff; border: 1px solid #e2e8f0; }
+th, td { text-align: left; padding: 0.6rem 0.8rem; border-bottom: 1px solid #f1f5f9; }
+th { background: #f8fafc; font-size: 0.85rem; text-transform: uppercase; color: #475569; }
+code { font-family: ui-monospace, SFMono-Regular, Menlo, monospace; background: #f1f5f9; padding: 0.15rem 0.35rem; border-radius: 4px; font-size: 0.9em; }
+.badge { display: inline-block; padding: 0.15rem 0.55rem; border-radius: 999px; font-size: 0.8rem; font-weight: 700; }
+.badge.enabled, .badge.connected { background: #dcfce7; color: #166534; }
+.badge.disabled { background: #fee2e2; color: #991b1b; }
+.badge.error { background: #fef2f2; color: #991b1b; }
+.badge.connecting { background: #fef3c7; color: #92400e; }
+form { margin: 1rem 0; display: inline-block; }
+.btn { background: #0f172a; color: #fff; border: none; padding: 0.45rem 0.9rem; border-radius: 6px; cursor: pointer; font-size: 0.9rem; }
+.btn:hover { background: #1e293b; }
+.btn-danger { background: #dc2626; }
+.btn-danger:hover { background: #b91c1c; }
+.btn-success { background: #16a34a; }
+.btn-success:hover { background: #15803d; }
+.field { margin: 0.75rem 0; }
+.field label { display: block; font-size: 0.85rem; color: #475569; margin-bottom: 0.25rem; }
+.field input { width: 100%; padding: 0.5rem; border: 1px solid #cbd5e1; border-radius: 6px; font-size: 0.95rem; }
+.field small { color: #64748b; font-size: 0.8rem; margin-top: 0.25rem; display: block; }
+.flash { padding: 0.6rem 1rem; border-radius: 6px; margin-bottom: 1rem; font-weight: 600; }
+.flash-info { background: #dbeafe; color: #1e3a8a; border: 1px solid #bfdbfe; }
+.flash-error { background: #fee2e2; color: #991b1b; border: 1px solid #fecaca; }
+.hint { font-size: 0.85rem; color: #64748b; margin-top: 0.75rem; }
+.ok { color: #166534; font-weight: 600; }
+.warn { color: #92400e; font-weight: 600; }
+footer { margin-top: 2rem; padding: 1rem; color: #64748b; font-size: 0.8rem; border-top: 1px solid #e2e8f0; }

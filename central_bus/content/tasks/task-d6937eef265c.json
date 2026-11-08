@@ -1,0 +1,13 @@
+{
+  "task_id": "task-d6937eef265c",
+  "dept": "qa",
+  "module": "qa",
+  "task_type": "qa_test",
+  "status": "pending",
+  "brief": "QA test result: suite=qa-011-windows-subset-run status=failed note=Windows instance subset run 2026-11-08: 698 passed / 58 failed / 3 skipped in 50.96s (13 collection-blocked files excluded — see qa-010). All MCP dept servers pass initialize live. Failure distribution by file: news_daily 8, ao_bridge 8, guard_cli 7, worklog 6, validate 6 (TOML-check regressions), web_reader 4, llm_fallback 4, model_health 3, api 3, runtime_freshness 2, handoff_confirm 2, qa_mcp 1, mcp_stdio 1, d3_eval_harness 1, api_dependencies 1, ao_integration 1. Mixed causes suspected: Windows-only semantics (POSIX funcs/process time) over-represented; several (validate TOML, web_reader Module errors) may be real regressions on py<3.12? triage NOT done — next: QA/Engineering classify 58 into Windows-only vs genuine bugs before any fix.",
+  "created_at": "2026-11-08T07:44:08.068208+00:00",
+  "started_at": null,
+  "completed_at": null,
+  "result_ref": null,
+  "error_detail": null
+}

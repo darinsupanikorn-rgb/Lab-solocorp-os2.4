@@ -1,0 +1,37 @@
+{% extends "base.html" %}
+{% block body %}
+<h2>การตั้งค่าโมเดล / ผู้ให้บริการ (Provider Settings)</h2>
+
+<form method="post" action="/settings">
+  <div class="field">
+    <label>Provider</label>
+    <input name="provider" value="{{ provider.provider }}" required placeholder="เช่น openai, anthropic, gemini">
+  </div>
+  <div class="field">
+    <label>Model</label>
+    <input name="model" value="{{ provider.model }}" required placeholder="เช่น gpt-4o-mini, claude-3-haiku">
+  </div>
+  <div class="field">
+    <label>Base URL (ตัวเลือก)</label>
+    <input name="base_url" value="{{ provider.base_url or '' }}" placeholder="https://api.example.com/v1">
+  </div>
+  <div class="field">
+    <label>API Key Ref (ชื่อตัวแปร env, <b>ไม่เก็บค่าจริง</b>)</label>
+    <input name="api_key_ref" value="{{ provider.api_key_ref }}" required placeholder="SOLOCORP_API_KEY">
+    <small>ค่าจริงอ่านจาก environment variable ตัวนี้เท่านั้น &mdash; ไม่เขียนลงไฟล์ config ไม่รั่วเข้าที่ task artifact</small>
+  </div>
+  <button class="btn" type="submit">บันทึกการตั้งค่า</button>
+</form>
+
+<p class="hint">
+  ปรับแล้วเขียนลง <code>config/provider.json</code> (metadata เท่านั้น). Credential จริงอยู่ใน env var ตามชื่อ
+  <code>api_key_ref</code>. <b>ไม่มี silent fallback</b> &mdash; provider หรือ model ใช้งานไม่ได้ = รายงานเป็น error ชัดเจน
+  ห้ามเด้งโมเดลอื่นโดยไม่แจ้งผู้ใช้ (PRD D5).
+</p>
+
+{% if configured %}
+<p class="ok">สถานะ provider: ตั้งค่าครบถ้วน (configured)</p>
+{% else %}
+<p class="warn">สถานะ provider: ยังไม่ได้ตั้งค่า (unconfigured) &mdash; กรอกฟอร์มด้านบนแล้วบันทึก</p>
+{% endif %}
+{% endblock %}

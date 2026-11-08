@@ -17,6 +17,9 @@ Thumbs.db
 # Antigravity Awesome Skills (cloned community skill library)
 /reference/antigravity-awesome-skills/
 
+# Flowkit (cloned Google Flow repo, studied copy — not part of SoloCorp OS)
+/reference/flowkit/
+
 # Central Bus SQLite temp files
 central_bus/bus.db-shm
 central_bus/bus.db-wal
@@ -93,6 +96,9 @@ build/
 tools/stealth-browser-mcp/
 tools/github-mcp/
 tools/vectorcraft/
+
+# Thai Font Kit (pinned upstream checkout + build artifacts: node_modules, target, .exe)
+/tools/thai-font-kit/
 
 # Pinned upstream checkouts (clone/install locally, never vendored)
 # See docs/runbooks/CONTENT-LOCAL-MEDIA-RENDER.md "Installed Engines"
@@ -171,3 +177,7 @@ loop_runner/.main.lock
 
 # คลิปของครีเอเตอร์ (ใหญ่) — เก็บในเครื่อง ไม่ commit
 bus/media/creator/*/clips/
+
+# history-1min เป็น build artifact (build/, out/, script.md) สร้างใหม่ได้
+# Per Decision Gate Q1 → not tracked in git.
+bus/media/history-1min/

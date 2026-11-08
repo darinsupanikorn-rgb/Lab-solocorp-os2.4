@@ -1,0 +1,13 @@
+{
+  "task_id": "task-95da90198256",
+  "dept": "qa",
+  "module": "qa",
+  "task_type": "qa_test",
+  "status": "pending",
+  "brief": "QA test result: suite=qa-010-windows-collection-blocker status=failed note=Windows instance (Lenovo, 2026-11-08): full pytest collection BLOCKED — central_bus/state.py imports POSIX-only 'fcntl' at module top; cascade kills 13 test files (incl. via loop_runner import chain) + tests/test_content_agent_edges.py (os attribute E AttributeError). CI passes on Linux because repo is Linux-targeted. Root cause owned by Engineering (portability fix: guarded import or msvcrt fallback). Windows-compatible subset separately recorded. Evidence: pytest collection stderr captured in session.",
+  "created_at": "2026-11-08T07:43:55.981215+00:00",
+  "started_at": null,
+  "completed_at": null,
+  "result_ref": null,
+  "error_detail": null
+}

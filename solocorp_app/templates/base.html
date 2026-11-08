@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{ app_title }}</title>
+<link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+<header>
+  <div class="brand">{{ app_title }}</div>
+  <nav>
+    <a href="/">Module</a>
+    <a href="/settings">Settings</a>
+    <a href="/tasks">Tasks</a>
+    <a href="/ceo">CEO Chat</a>
+  </nav>
+</header>
+<main>
+{% if msg %}<div class="flash flash-{{ kind }}">{{ msg }}</div>{% endif %}
+{% block body %}{% endblock %}
+</main>
+<footer><small>SoloCorp OS &mdash; local-first, single-user. Phase 1: registry + provider + module toggle.</small></footer>
+</body>
+</html>

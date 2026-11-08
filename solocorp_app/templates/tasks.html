@@ -1,0 +1,27 @@
+{% extends "base.html" %}
+{% block body %}
+<h2>ประวัติงาน (Task History)</h2>
+<p>แต่ละงานมี <code>task_id</code>, แผนก, สถานะ, เวลาสร้าง และอ้างอิงผลลัพธ์/ข้อผิดพลาด (PRD FR-05).</p>
+<table>
+<thead>
+<tr>
+  <th>Task ID</th><th>แผนก</th><th>สถานะ</th><th>สร้างเมื่อ</th><th>ผลลัพธ์ / ข้อผิดพลาด</th>
+</tr>
+</thead>
+<tbody>
+{% if tasks %}
+  {% for t in tasks %}
+  <tr>
+    <td><code>{{ t.task_id }}</code></td>
+    <td>{{ t.dept }}</td>
+    <td><span class="badge {{ t.status }}">{{ t.status }}</span></td>
+    <td>{{ t.created_at }}</td>
+    <td>{{ t.error_detail or t.result_ref or "-" }}</td>
+  </tr>
+  {% endfor %}
+{% else %}
+<tr><td colspan="5" class="hint">ยังไม่มีงานถูกบันทึก</td></tr>
+{% endif %}
+</tbody>
+</table>
+{% endblock %}

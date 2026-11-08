@@ -1,0 +1,24 @@
+{% extends "base.html" %}
+{% block body %}
+<h2>CEO Chat</h2>
+
+<p>
+  CEO loop และการส่งคำสั่งbrief ไปยังแผนกที่เปิดอยู่จะเข้ามาใน <b>เฟส 2</b> ตาม PRD §11
+  (Phase 2 gate: brief จบวงจรหนึ่งครั้ง; ปิดโมดูลแล้วต้องแจ้ง unavailable ชัดเจน).
+</p>
+
+<div class="field" style="border:1px dashed #cbd5e1; padding:1rem; border-radius:6px; background:#f8fafc;">
+  <p class="hint" style="margin:0 0 0.5rem 0;">เงื่อนไขก่อนใช้ CEO (Phase 1 gate):</p>
+  <ul style="margin:0; padding-left:1.25rem; color:#475569;">
+    <li>ตั้งค่า provider ที่หน้า <a href="/settings">Settings</a> ให้เรียบร้อยแล้ว</li>
+    <li>เปิด <b>content-creator</b> ที่หน้า <a href="/">Module</a> ก่อนส่งงานหาครีเอเตอร์</li>
+  </ul>
+</div>
+
+{% if not configured %}
+<p class="warn">ยังไม่ได้ตั้งค่า provider &mdash; โปรดไปที่หน้า Settings ก่อน</p>
+{% endif %}
+{% if not content_enabled %}
+<p class="warn">โมดูล content-creator ยังถูกปิดอยู่ &mdash; โปรดเปิดที่หน้า Module ก่อนส่งงานถึงครีเอเตอร์</p>
+{% endif %}
+{% endblock %}
