@@ -20,13 +20,13 @@ SoloCorp OS is an **organizational OS for AI agents and a modular MCP product**.
 - **Content Creator standalone strategy (2026-11-02):** ADR-030 accepts the open-core boundary (MCP adapter open / content engine closed); ADR-031 keeps Sound Designer as a Content Creator specialist and Earshot as an internal dependency. Release remains free-first behind a quality floor, with signal-triggered monetization and 3 weekly metrics reviewed after 90 days (first: 2027-02-02). Split executes at PRD Phase 3, not as parallel work. Full reference: [Content MCP strategy](docs/plans/CONTENT-MCP-STRATEGY-v1.0.md).
 - This repo has pre-existing untracked generated artifacts and work. Check `git status` and `git diff` before edits or commits; do not clean or overwrite unrelated files.
 
-Default agent is `ceo-turbo` (strategy + routing + final call). Owner (Dr.solodev) decides L5 only.
+Default agent is `ceo-hanuman` (strategy + routing + final call). Owner (Dr.solodev) decides L5 only.
 
 ## Hierarchy + escalation (do-not-break)
 
 ```
 Owner — L5: vision / org / core product ONLY
-└── CEO (เทอโบ) — L4: strategy, cross-dept, roadmap
+└── CEO (หนุมาน) — L4: strategy, cross-dept, roadmap
     └── COO (กิจ) — L3 gatekeeper: daily ops, L1–L3
         └── Department Heads — L2 · Loop Runner — L1 (auto)
 ```

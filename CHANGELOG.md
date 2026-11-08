@@ -38,7 +38,7 @@
 - **Product Packs (v2.4.0 pre-release)** — CFO, Legal, Content Creator standalone packs
 - **Routing Rules Import** — `bus/system/routing_rules.json` → SQLite `routing_rules` table (16 rules)
   - Map short names → full agent IDs (e.g. `"cfo"` → `"cfo-meetoo"`)
-  - Fallback route → CEO (`ceo-turbo`)
+  - Fallback route → CEO (`ceo-hanuman`)
 - **Claude Code Integration (v0.7.1)** — `.claude/` config สำหรับ Claude Code
   - `.claude/settings.json` — Full config: 18 commands, skills, MCPs, permissions
   - `.claude/commands/` — 18 commands (was 6 → 18)

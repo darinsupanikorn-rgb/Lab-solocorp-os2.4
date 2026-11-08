@@ -54,7 +54,7 @@ Or natural language:
 
 | `subagent_type` | Role |
 |:----------------|:-----|
-| `ceo-turbo` | CEO — strategy, prioritization, final call |
+| `ceo-hanuman` | CEO — strategy, prioritization, final call |
 | `orchestrator-wut` | Multi-dept pipeline coordination |
 | `architect-songsak` | Central Bus, routing, monitoring |
 | `product-produck` | PRD / roadmap / acceptance |
