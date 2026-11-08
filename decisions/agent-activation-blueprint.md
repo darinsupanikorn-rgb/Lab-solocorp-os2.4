@@ -102,7 +102,7 @@ worker/
 2. รับ task → ตรวจ target_agent
 3. Load agent profile (SOUL.md)
 4. Execute ตามบทบาท
-5. ส่งผลกลับผ่าน /v1/observe (source=agent, target=ceo-turbo)
+5. ส่งผลกลับผ่าน /v1/observe (source=agent, target=ceo-hanuman)
 6. Log ไป brain/session-log.md
 ```
 
@@ -114,7 +114,7 @@ worker/
 |:----------|:------:|:-----------|
 | SOUL.md profiles (55+) | ✅ มีแล้ว | แก้ให้ครบ |
 | Codex .toml (80) | ✅ มีแล้ว | ทดสอบว่าใช้งานได้ |
-| OpenCode agent configs | ⚠️ มีแค่ ceo-turbo | เพิ่ม agent config สำหรับ 5 กรม |
+| OpenCode agent configs | ⚠️ มีแค่ ceo-hanuman | เพิ่ม agent config สำหรับ 5 กรม |
 | Central Bus queue | ✅ มีแล้ว | format ถูกต้อง |
 | Agent Worker Service | ❌ ยังไม่มี | สร้าง worker ทั้งระบบ |
 | Department API Keys | ❌ ยังไม่มี | สร้าง key per dept |

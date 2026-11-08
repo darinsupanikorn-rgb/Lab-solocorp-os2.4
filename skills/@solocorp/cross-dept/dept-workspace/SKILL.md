@@ -65,7 +65,7 @@ opencode run --agent <slug> --title "[แผนก] งานสั้นๆ" --
 - งานยาวครอบด้วย `timeout <วินาที> opencode run ...` กันค้าง
 
 ### Agent slug map (dept → --agent)
-`ceo-turbo, qa, architect-songsak, engineering-changful, design-kreet, ui-designer,
+`ceo-hanuman, qa, architect-songsak, engineering-changful, design-kreet, ui-designer,
 orchestrator-wut, product-produck, content-creator-sek, cfo-meetoo, cmo-mark,
 sales, support, legal-tulya, web3-aywa, cron-pipeline, monitor-watchdog,
 exception-triage, pipeline-auditor, routing-config-agent, mcp-builder`

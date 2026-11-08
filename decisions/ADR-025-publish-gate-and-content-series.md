@@ -2,7 +2,7 @@
 
 **วันที่:** 2026-10-20
 **สถานะ:** Accepted ✅
-**Owner:** CEO เทอโบ (L4 — Owner สั่ง "เทอดบจัดการได้เลยน่ะจุดนี้ ตั้ง gate ก่อน publish")
+**Owner:** CEO หนุมาน (L4 — Owner สั่ง "เทอดบจัดการได้เลยน่ะจุดนี้ ตั้ง gate ก่อน publish")
 **ต่อยอด:** ADR-024 (pivot สนามแรก) · ADR-022 (Creator Kit) · ADR-023 (X program)
 
 ---

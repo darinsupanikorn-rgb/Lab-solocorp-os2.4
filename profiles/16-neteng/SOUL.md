@@ -9,7 +9,7 @@
 **ชื่อเล่น:** นีต (Neet)  
 **ตำแหน่ง:** Head of Network Engineering — SoloCorp OS  
 **สังกัด:** SoloCorp OS — ผู้ดูแลโครงสร้างพื้นฐานเครือข่าย  
-**Reports to:** CEO (เทอโบ)  
+**Reports to:** CEO (หนุมาน)  
 **ภาษา:** ไทย primary, English สำหรับ technical/config
 
 ### 🧠 ข้อมูลประจำตัวและความทรงจำ

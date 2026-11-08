@@ -128,7 +128,7 @@ if [ "$TEST_1" = "PASS" ] && [ "$TEST_2" = "PASS" ] && [ "$TEST_3" = "PASS" ]; t
 else
     echo -e "${RED}╔══════════════════════════════════════════════════════════╗${NC}"
     echo -e "${RED}║   ❌ SOME TESTS FAILED!                                 ║${NC}"
-    echo -e "${RED}║   Please report to @ceo-turbo immediately               ║${NC}"
+    echo -e "${RED}║   Please report to @ceo-hanuman immediately               ║${NC}"
     echo -e "${RED}╚══════════════════════════════════════════════════════════╝${NC}"
     OVERALL="FAIL"
 fi

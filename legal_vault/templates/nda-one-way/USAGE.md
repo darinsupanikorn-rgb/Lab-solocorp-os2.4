@@ -32,7 +32,7 @@
 | มูลค่า / ความเสี่ยง | ระดับการอนุมัติ |
 |:--------------------|:----------------|
 | ใช้งานทั่วไป (vendor, contractor ทั่วไป) | หัวหน้าแผนก + Orchestrator |
-| เปิดเผย source code, trade secret, IP หลัก | CEO (เทอโบ) อนุมัติ |
+| เปิดเผย source code, trade secret, IP หลัก | CEO (หนุมาน) อนุมัติ |
 | contract value > 1,000,000 บาท | CFO (meetoo) co-sign |
 | กรณีเกี่ยวข้องกับ on-chain / DeFi data | อาจต้อง Web3 (aywa) review ข้อ 2 |
 

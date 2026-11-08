@@ -58,7 +58,7 @@ DeepSeek V4.1 Flash   270   779.5k   15.2M   -   186.9k   $0.00
 ```json
 {
   "time": {"created": 1792909301388, "completed": 1792909305562},
-  "agent": "ceo-turbo",
+  "agent": "ceo-hanuman",
   "model": {"id": "deepseek-v4.1-flash-free", "providerID": "opencode"},
   "finish": "tool-calls",
   "cost": 0,

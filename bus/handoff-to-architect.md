@@ -2,7 +2,7 @@
 
 | Field | Value |
 |:------|:------|
-| **From** | 👑 Mirror CEO (เทอโบ — Digital Twin of Dr.solodev) |
+| **From** | 👑 Mirror CEO (หนุมาน — Digital Twin of Dr.solodev) |
 | **To** | 🏛️ @architect-songsak (พี่ทรงศักดิ์) |
 | **Date** | 2026-07-20 04:00 ICT |
 | **Priority** | P1 |

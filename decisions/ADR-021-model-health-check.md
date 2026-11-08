@@ -2,7 +2,7 @@
 
 **วันที่:** 2026-10-20
 **สถานะ:** Accepted ✅
-**Owner:** CEO เทอโบ (L4 — Owner สั่ง "model health check ใน watchdog (กันตายซ้ำ)")
+**Owner:** CEO หนุมาน (L4 — Owner สั่ง "model health check ใน watchdog (กันตายซ้ำ)")
 **ต่อยอด:** ADR-019 (ซ่อม dispatch path — เจอปัญหานี้ระหว่างทำ)
 
 ---

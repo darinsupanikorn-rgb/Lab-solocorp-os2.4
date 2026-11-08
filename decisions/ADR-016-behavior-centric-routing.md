@@ -2,7 +2,7 @@
 
 **วันที่:** 2026-07-20  
 **สถานะ:** Accepted ✅  
-**Owner:** CEO เทอโบ  
+**Owner:** CEO หนุมาน  
 **设计师:** Architect พี่ทรงศักดิ์ + Product โปรดัค  
 **來源:** Harness Handbook (Wang et al., 2026) — arXiv:2607.13285
 

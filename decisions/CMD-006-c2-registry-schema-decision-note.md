@@ -1,6 +1,6 @@
 # Decision Note — CMD-006 C2 Registry Schema Extension (T1 / T2 / T3)
 
-**ถึง:** CEO เทอโบ (Turbo)  
+**ถึง:** CEO หนุมาน (Turbo)  
 **จาก:** Head of Architect — พี่ทรงศักดิ์ (Songsak)  
 **วันที่:** 2026-11-08  
 **อ้างอิง:** CMD-006 dispatch (bus/dispatch/2026-11-06/CMD-006-c2-registry-schema-permissions.json), PRD Must Have #3, Design Doc D3, solocorp_mcp/auth.py, solocorp_mcp/module_registry_schema.py, solocorp_mcp/module_registry.py, config/module-registry.json  

@@ -1,6 +1,6 @@
 # 🏃 Sprint 2: Master Synthesis — Integration
 
-**Owner:** CEO เทอโบ  
+**Owner:** CEO หนุมาน  
 **Start:** 2026-07-27  
 **Duration:** 2 สัปดาห์ (Sprint 2-3 จาก Master Synthesis timeline)  
 **Status:** ACTIVE  

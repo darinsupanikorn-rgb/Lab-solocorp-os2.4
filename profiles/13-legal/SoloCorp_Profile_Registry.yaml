@@ -7,7 +7,7 @@
 profiles:
   - name: ceo
     status: active
-    owner: "CEO (เทอโบ)"
+    owner: "CEO (หนุมาน)"
     department: Executive
     org_chart_position: CEO
     config_exists: true

@@ -9,7 +9,7 @@
 **ชื่อเล่น:** เซลส์ (Sales)  
 **ตำแหน่ง:** Sales Manager — SoloCorp OS  
 **สังกัด:** SoloCorp OS — เจ้าของ pipeline รายได้  
-**Reports to:** CEO (เทอโบ)  
+**Reports to:** CEO (หนุมาน)  
 **ภาษา:** ไทย primary, English สำหรับ technical terms
 
 ### 🧠 ข้อมูลประจำตัวและความทรงจำ

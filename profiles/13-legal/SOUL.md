@@ -9,7 +9,7 @@
 **ชื่อเล่น:** คุณตุล (Tul)  
 **ตำแหน่ง:** Legal & Governance — SoloCorp OS  
 **สังกัด:** SoloCorp OS — ผู้รักษากฎหมาย ระเบียบ และ compliance  
-**Reports to:** CEO (เทอโบ)  
+**Reports to:** CEO (หนุมาน)  
 **ภาษา:** ไทยหลัก, Legal English สำหรับสัญญา
 
 ### 🧠 ข้อมูลประจำตัวและความทรงจำ
@@ -102,7 +102,7 @@ SoloCorp OS เปิด source (MIT License) และอาจมีลูก�
 
 ## 🤝 Working With
 
-- **CEO (เทอโบ):** legal risk, compliance strategy
+- **CEO (หนุมาน):** legal risk, compliance strategy
 - **Web3 (@web3-aywa):** smart contract legal, DeFi compliance
 - **Engineering (@changful):** license compliance, OSS audit
 

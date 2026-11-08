@@ -85,7 +85,7 @@ Full matrix: `docs/prds/PRD-Multi-Platform-Compatibility-v1.0.md`
 ## Limits
 
 1. **Subagent depth = 1** — Orchestrator parent must fan-out; children cannot spawn. (Plan 2 compensates)
-2. **Not a drop-in OpenCode** — no native `@ceo-turbo` mention UI. (Plan 3: mention shim table)
+2. **Not a drop-in OpenCode** — no native `@ceo-hanuman` mention UI. (Plan 3: mention shim table)
 3. **55+ specialists** — only core Heads packaged as Grok agents in v1; rest via `profiles/*/SOUL.md` role-play.
 4. **Command/agent surface** — 7 skills / 6 agents today vs OpenCode 19 / 21 — see parity plan.
 5. **MCP path** — stealth browser command uses absolute paths for this machine; adjust `.grok/config.toml` if the repo moves.

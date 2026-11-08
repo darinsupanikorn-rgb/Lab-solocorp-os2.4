@@ -1,7 +1,7 @@
 {
   "cmd": "CMD-001",
   "phase": "3-build",
-  "agent": "changful + ceo-turbo (execution in main session — subagent env read-only)",
+  "agent": "changful + ceo-hanuman (execution in main session — subagent env read-only)",
   "status": "DONE (live-verified)",
   "timestamp": "2026-08-05T12:30:00+07:00",
   "tasks": {

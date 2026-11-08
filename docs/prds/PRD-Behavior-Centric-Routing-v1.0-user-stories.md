@@ -37,7 +37,7 @@ Scenario: Request ภาษาไทยถูก classify ถูกต้อง
 
 ## User Story 2: Low Confidence → CEO Review
 
-**As a** CEO (เทอโบ)
+**As a** CEO (หนุมาน)
 **I want** request ที่ behavior classifier ไม่มั่นใจ (confidence < 90%) ถูกส่งมาให้ผม review
 **So that** ผมตัดสินใจ routing ที่ถูกต้อง และ data นี้ใช้ improve classifier ได้
 

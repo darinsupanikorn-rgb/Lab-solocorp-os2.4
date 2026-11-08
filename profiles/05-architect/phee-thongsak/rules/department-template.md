@@ -62,7 +62,7 @@ Input → Head วิเคราะห์ → เลือก Specialist → de
 ## Escalation Chain
 
 ```
-Department Head → CEO (เทอโบ) → Dr.solodev
+Department Head → CEO (หนุมาน) → Dr.solodev
 ```
 
 ## Design Doc Template

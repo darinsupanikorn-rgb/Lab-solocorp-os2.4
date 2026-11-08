@@ -1,7 +1,7 @@
 # PRD: SoloCorp OS — Multi-Platform Compatibility v1.0
 
 **Author:** โปรดัค (Product Head)
-**Authorized by:** CEO เทอโบ
+**Authorized by:** CEO หนุมาน
 **Date:** 2026-07-06
 **Status:** Approved
 

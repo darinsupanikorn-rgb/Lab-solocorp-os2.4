@@ -2,7 +2,7 @@
 
 **วันที่:** 2026-10-20
 **สถานะ:** Accepted ✅ — Owner แตะยืนยัน ("ตรง — เอาไปลงสนามได้เลย")
-**Owner:** CEO เทอโบ (L4 — Owner อนุมัติ)
+**Owner:** CEO หนุมาน (L4 — Owner อนุมัติ)
 **ต่อยอด:** ADR-018 (carbonyl) · ADR-019 (web v1) · ADR-020 (news daily) · ADR-021 (model health)
 **อ้างอิง:** `brain/vision-small-people-20261015.md` §5.2–5.6 🔒 LOCKED · `brain/field-1-creator-tiktok-20261020.md`
 

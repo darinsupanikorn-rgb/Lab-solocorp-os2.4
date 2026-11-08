@@ -114,7 +114,7 @@ python scripts/make_broll_clip.py --script X.script.md --library <โฟลเ�
 | ScreenRec_20261020_part2_SUB.mp4 | 36.9MB |
 | ScreenRec_20261020_part3_SUB.mp4 | 38.3MB |
 
-💡 เนื้อหาใน screen recording = คุณคุยกับ CEO เทอโบเรื่องงานจริง (ADR-021 / Model Health Check)
+💡 เนื้อหาใน screen recording = คุณคุยกับ CEO หนุมานเรื่องงานจริง (ADR-021 / Model Health Check)
 → คือ "เรื่องราวของเรา" ในรูปวิดีโอพอดี
 ```
 

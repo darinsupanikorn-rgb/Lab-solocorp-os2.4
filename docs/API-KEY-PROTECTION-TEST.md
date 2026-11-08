@@ -6,7 +6,7 @@
 
 ## 👥 Who Should Test
 
-- [ ] CEO (เทอโบ)
+- [ ] CEO (หนุมาน)
 - [ ] COO (กิจ/Kit)
 - [ ] All Department Heads (19 departments)
 - [ ] All Specialist Agents
@@ -184,7 +184,7 @@ time .git/hooks/pre-commit
 # Expected: <2 seconds for normal commits
 ```
 
-**Report:** If consistently slow, report to @ceo-turbo
+**Report:** If consistently slow, report to @ceo-hanuman
 
 ---
 
@@ -261,11 +261,11 @@ git diff --cached | grep -C 3 "ccsk-\|sk-\|API_KEY"
 
 ## 📞 Contact
 
-**Questions:** @ceo-turbo or #security channel
+**Questions:** @ceo-hanuman or #security channel
 **Emergency:** If you accidentally commit real API key, contact CEO immediately
 
 ---
 
-**Prepared By:** CEO (เทอโบ)
+**Prepared By:** CEO (หนุมาน)
 **Date:** 2026-07-27
 **Version:** 1.0

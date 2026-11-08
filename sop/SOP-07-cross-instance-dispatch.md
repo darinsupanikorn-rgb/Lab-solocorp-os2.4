@@ -1,6 +1,6 @@
 # SOP-07: Cross-Instance Dispatch — ฝากงานข้ามครอบครัว
 
-**Owner:** CEO เทอโบ
+**Owner:** CEO หนุมาน
 **Version:** v1.0 (21 ต.ค. 2569)
 **Applies to:** ทุก instance ในครอบครัว SoloCorp — [`docs/FAMILY.md`](../docs/FAMILY.md)
 **ที่มา:** PR #19 (fork `darinsupanikorn-rgb`) → Owner รับรอง "หนุมาน" เป็นสมาชิกครอบครัวคนที่ 2

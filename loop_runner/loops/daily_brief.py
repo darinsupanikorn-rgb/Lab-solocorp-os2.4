@@ -69,7 +69,7 @@ class DailyBriefLoop(Loop):
         # Prompt uses EN structure + TH output instruction — stable. Fallback retries EN-only.
         prompt = (
             f"You are CFO of SoloCorp OS. Org status:\n{facts_text}\n\n"
-            f"Morning report for CEO (เทอโบ). Respond in Thai, max 10 lines:\n"
+            f"Morning report for CEO (หนุมาน). Respond in Thai, max 10 lines:\n"
             f"1. Finance overview\n2. Watch items today\n3. CEO recommendations"
         )
 

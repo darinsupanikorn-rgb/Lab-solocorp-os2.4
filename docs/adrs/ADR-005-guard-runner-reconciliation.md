@@ -1,7 +1,7 @@
 # ADR-005: Guard Runner Layer Architecture + Migration Scope
 
 ## Status
-**Draft** — Mandated by CEO (เทอโบ) for completion within 24 hours.
+**Draft** — Mandated by CEO (หนุมาน) for completion within 24 hours.
 
 ## Context
 
@@ -426,4 +426,4 @@ Layer 2 GovernanceGuard runs (async, fire-and-forget)
 
 ---
 
-*ADR-005 authored by Software Architect (พี่ทรงศักดิ์). Mandated by CEO (เทอโบ). Draft for review by Engineering (ช่างฟูล).*
+*ADR-005 authored by Software Architect (พี่ทรงศักดิ์). Mandated by CEO (หนุมาน). Draft for review by Engineering (ช่างฟูล).*

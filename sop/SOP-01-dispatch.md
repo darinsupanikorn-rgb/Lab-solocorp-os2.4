@@ -1,6 +1,6 @@
 # SOP-01: CEO Dispatch — ส่งงานไป Department
 
-**Owner:** CEO เทอโบ  
+**Owner:** CEO หนุมาน  
 **Version:** v1.0  
 **Applies to:** CEO → Department Heads
 

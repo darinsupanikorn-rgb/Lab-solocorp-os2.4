@@ -79,7 +79,7 @@ The 30-second try assumes one tool is already installed.
 ```bash
 git clone https://github.com/Dr-SoloDev/Lab-solocorp-os2.4.git
 cd Lab-solocorp-os2.4
-opencode "@ceo-turbo เริ่มกันเลย"
+opencode "@ceo-hanuman เริ่มกันเลย"
 ```
 
 The CEO routes from there. `@mention` a Head when you already know the department.
@@ -164,7 +164,7 @@ Counted on the `main` tree. If a future commit changes a count, change this tabl
 | Named Heads on the chart below | 18 | This page. COO and R&D Lab are in the tree only. |
 | Canonical skills | 9 | `skills/@solocorp/**/SKILL.md` |
 | OpenCode agent files | 21 | `.opencode/agents/*.md` |
-| Primary agents registered in `opencode.json` | 4 | `ceo-turbo`, `build`, `plan`, `explore` |
+| Primary agents registered in `opencode.json` | 4 | `ceo-hanuman`, `build`, `plan`, `explore` |
 
 Copies under `.claude/skills` and `.grok/skills` are platform packs, not a second copy of the canonical catalog: `.grok/skills/` holds 7 command skills (`audit`, `brain`, `deploy`, `handoff`, `pipeline`, `route`, `status`), and `.claude/skills/solocorp/` carries its own set (with extras like `agent-toolkit` and `ui-animation-review`, without `cross-dept/dept-workspace`). COO, R&D Lab, Network (นีต), Cyber Security (ซาย), and Psychology (จิต) do not yet have a file in `.opencode/agents/`.
 
@@ -350,7 +350,7 @@ No percent bars. A row marked **In tree** means the files exist. It does not mea
 ## Get Started
 
 1. Install OpenCode.
-2. Clone this repo and run `opencode "@ceo-turbo เริ่มกันเลย"`.
+2. Clone this repo and run `opencode "@ceo-hanuman เริ่มกันเลย"`.
 3. Use `@mention` to reach a Head directly.
 4. Run `/pipeline <feature>` for a cross-department cycle.
 

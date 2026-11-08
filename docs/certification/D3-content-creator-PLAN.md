@@ -1,7 +1,7 @@
 # D3 — แผนประเมินผล: `content-creator-sek` (Content Creator · เสก)
 
 > ตาม `rules/06-certification.md` §2 (D3) · `SOP-06`
-> **ผู้ทำ (maker):** CEO เทอโบ + `@changful` (runner/harness) — **ไม่ใช่ผู้ตรวจ**
+> **ผู้ทำ (maker):** CEO หนุมาน + `@changful` (runner/harness) — **ไม่ใช่ผู้ตรวจ**
 > **ผู้ตรวจ (checker):** Reality Checker หรือ pipeline-auditor (agent คนละตัว) → Owner ลงนาม
 > **วันที่ร่าง:** 2026-10-25 · **สถานะ:** แผน (ยังไม่รัน — default = ยังไม่ผ่าน)
 > **ต้องผ่านก่อน:** D1 ✅ (Owner อนุมัติ 25 ต.ค.) · D2 ✅ (6/6 PASSED exit 0)

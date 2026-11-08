@@ -268,7 +268,7 @@ Dr.solodev สร้าง SoloCorp เพื่อเป็นบริษั�
 | **A**gree | CFO/Architect | เห็นด้วยหรือคัดค้าน |
 | **P**erform | Department Head | execute หลังจาก decision |
 | **I**nput | ทุก department ที่เกี่ยวข้อง | ให้ข้อมูลประกอบ |
-| **D**ecide | CEO (เทอโบ) | ชี้ขาด |
+| **D**ecide | CEO (หนุมาน) | ชี้ขาด |
 
 **Decision Record Template:**
 

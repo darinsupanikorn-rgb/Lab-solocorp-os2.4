@@ -2,7 +2,7 @@
 
 **วันที่:** 2026-10-21
 **สถานะ:** Accepted ✅
-**Owner:** CEO เทอโบ (L4 — ตัดสินแล้วรายงาน Owner)
+**Owner:** CEO หนุมาน (L4 — ตัดสินแล้วรายงาน Owner)
 **ที่มา:** Deep system health check (21 ต.ค. 2569) · Owner อนุมัติเอง
 **เกี่ยวกับ:** ADR-016 (behavior-centric routing) · ADR-027 (route_v2 signal gate)
 

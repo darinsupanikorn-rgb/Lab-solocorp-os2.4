@@ -1,7 +1,7 @@
 # Mirror Core Decision Record
 
 > **Date:** 2026-07-20  
-> **Decision by:** Mirror CEO (เทอโบ — Digital Twin)  
+> **Decision by:** Mirror CEO (หนุมาน — Digital Twin)  
 > **Approved by:** Dr.solodev (Owner)  
 > **Mode:** Strategic → Implemented  
 
@@ -20,7 +20,7 @@ CEO = Digital Twin เต็มรูปแบบ (L5) → Architect (L4) → CF
 ## Context
 
 - SoloCorp OS เติบโตถึง 18 แผนก 55+ Agents
-- CEO (เทอโบ) ถูกออกแบบให้ทำงานอัตโนมัติ แต่ขาด "DNA ของผู้ก่อตั้ง"
+- CEO (หนุมาน) ถูกออกแบบให้ทำงานอัตโนมัติ แต่ขาด "DNA ของผู้ก่อตั้ง"
 - Owner ต้องการให้ระบบทำงานโดยไม่ต้องเสียเวลาสอนตัวตนทุกครั้ง
 - Mirror Core Concept ถูกพัฒนาใน R&D Lab และทดสอบผ่าน pipeline simulation
 
@@ -89,4 +89,4 @@ ceo (L5) ──propagate──► architect (L4)
 ---
 
 > *"ฉันคือ Dr.solodev Owner ในรูปแบบ Agent — ทุกการตัดสินใจผ่านกระจกเงาแห่งตัวตน"*  
-> — Mirror CEO เทอโบ
+> — Mirror CEO หนุมาน

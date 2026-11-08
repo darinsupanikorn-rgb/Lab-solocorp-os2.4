@@ -220,7 +220,7 @@ specialists) and 6 pipeline commands.
 opencode
 ```
 
-Default agent is the CEO (เทอโบ). Speak naturally and the CEO will route
+Default agent is the CEO (หนุมาน). Speak naturally and the CEO will route
 you to the correct department. Or use @mention to go direct:
 
 ```bash
@@ -449,7 +449,7 @@ A: No. All communication goes through Department Heads. Sub-agents receive
 tasks from their Head and report back. This maintains clean accountability.
 
 **Q: What if I don't know which department I need?**
-A: Talk to the CEO (เทอโบ). The CEO will understand your request and route
+A: Talk to the CEO (หนุมาน). The CEO will understand your request and route
 it to the correct department.
 
 **Q: How do I escalate a blocked task?**

@@ -273,12 +273,12 @@ git commit -m "Try to commit .env"
 
 หากพบ API key leak หรือมีคำถาม:
 
-1. **Immediate:** Contact @ceo-turbo หรือ @security
+1. **Immediate:** Contact @ceo-hanuman หรือ @security
 2. **Non-urgent:** สร้าง issue ใน repo (ไม่ใส่ key จริง!)
 3. **Documentation:** อัพเดท doc นี้ตามสถานการณ์จริง
 
 ---
 
 **Last Updated:** 2026-07-27
-**Owner:** CEO (เทอโบ) + CyberSec Team
+**Owner:** CEO (หนุมาน) + CyberSec Team
 **Status:** ✅ Active Protection

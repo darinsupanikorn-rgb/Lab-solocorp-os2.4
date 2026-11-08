@@ -25,6 +25,6 @@
 
 ## Files changed (this session, uncommitted)
 - workers/llm_provider.py (DEFAULT_MODEL + MODEL_FALLBACKS + DEAD_MODELS + think() chain)
-- opencode.json (ceo-turbo model → space-bunny-free)
+- opencode.json (ceo-hanuman model → space-bunny-free)
 - .opencode/agents/*.md 21 files (x-preview-f-free → space-bunny-free)
 - profiles/*/config.yaml untouched (MaxPlus system, Architect to decide)

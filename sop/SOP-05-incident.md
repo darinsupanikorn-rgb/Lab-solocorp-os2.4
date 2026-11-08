@@ -1,6 +1,6 @@
 # SOP-05: Incident — ระบบมีปัญหา
 
-**Owner:** CEO เทอโบ (escalate ตามระดับ)  
+**Owner:** CEO หนุมาน (escalate ตามระดับ)  
 **Version:** v1.0  
 **Applies to:** All Department Heads → CEO
 

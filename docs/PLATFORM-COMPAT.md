@@ -21,7 +21,7 @@
 
 | Feature | Status | Notes |
 |:--------|:------:|:------|
-| CEO default agent | ✅ | `default_agent: ceo-turbo` |
+| CEO default agent | ✅ | `default_agent: ceo-hanuman` |
 | 18 slash commands | ✅ | pipeline, handoff, status, audit, deploy, brain, pipeline-bridge, mirror-check, bootstrap, triage, mirror, orchestrate, summary, sprint-plan, daily-ops, eng-deploy, budget-check, smoke-test, rfc-new |
 | Skills paths | ✅ | 7 paths in `skills.paths` incl. `@solocorp/` |
 | MCP servers | ✅ | solocorp, github, stealth-browser |

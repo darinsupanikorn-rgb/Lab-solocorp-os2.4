@@ -1,7 +1,7 @@
 # D1 — Agent Rationale: `content-creator-sek` (Content Creator · เสก)
 
 > ตาม `sop/TEMPLATE-D1-agent-rationale.md` · `rules/06-certification.md` §2
-> **ผู้ทำ (maker):** CEO เทอโบ — ผู้ dispatch งานให้แผนก (เขียนแทนแผนก ไม่ใช่แทนผู้ตรวจ)
+> **ผู้ทำ (maker):** CEO หนุมาน — ผู้ dispatch งานให้แผนก (เขียนแทนแผนก ไม่ใช่แทนผู้ตรวจ)
 > **วันที่:** 2026-10-21 (rev.3 — rev.2 + แก้เกณฑ์ความยาวเป็นตัวอักษร) · **งาน/CMD:** แผน B — เดินบันได certification ตัวแรกให้ครบวง
 > **สถานะ:** ส่งตรวจ Owner (default = ยังไม่ผ่าน)
 

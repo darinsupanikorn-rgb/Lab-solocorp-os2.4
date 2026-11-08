@@ -108,7 +108,7 @@ async def consult_dept(dept: str, topic: str, goal: str, timeout: int) -> dict:
 async def synthesize(topic: str, goal: str, insights: list[dict], timeout: int) -> str:
     from workers.agents.base_agent import BaseAgent
 
-    ceo = BaseAgent(agent_id="ceo", name="CEO เทอโบ",
+    ceo = BaseAgent(agent_id="ceo", name="CEO หนุมาน",
                     profile_path=REPO_ROOT / SOUL_MAP["ceo"])
     body = "\n\n".join(
         f"【{i['dept']}】\n{i['text']}" for i in insights

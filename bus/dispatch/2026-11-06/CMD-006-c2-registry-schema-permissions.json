@@ -4,7 +4,7 @@
     "type": "CEO_DISPATCH",
     "timestamp": "2026-11-06T18:30:00+07:00",
     "priority": "P1",
-    "from": "CEO เทอโบ (Turbo)",
+    "from": "CEO หนุมาน (Turbo)",
     "to": "@architect-songsak (พี่ทรงศักดิ์ — Head of Architect)",
     "title": "CMD-006 — C2 Registry schema extension: เคาะ permissions enum + migration policy (ตัดสินใจก่อน ห้าม implement)",
     "context": "C1 ปิดแล้ว (branch fix/registry-c1 @ ebde1d4 merge เข้า main แบบ fast-forward 2026-11-06) — validator config/state, register(), tolerant read, atomic write, config=error/state=warning ผ่าน QA อิสระ (1059 passed, sign-off แล้ว). สิ่งที่ C1 ยังไม่ทำคือส่วนที่ design doc D3 สัญญาไว้: field ที่ยังขาด 6 ตัว (name, version, capabilities, dependencies, permissions, entry_repo) และการขยาย transport เกิน stdio. QA ทิ้ง defect ที่ต้องตัดสินเชิงสถาปนาก่อนลงมือ C2 — ตัวที่บล็อกคือ 'permissions' เพราะต้องมี vocabulary ที่ตรงกับระบบ scope จริง ไม่ใช่ free-form string",

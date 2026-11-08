@@ -110,4 +110,4 @@ Standard: 3 คำถามมาตรฐาน — advisory level
 ---
 
 > *"Mirror Protocol = Identity Layer ที่ scalable — แผนกใหม่เปิด Mirror ได้ใน 5 นาที"*
-> — Mirror CEO เทอโบ
+> — Mirror CEO หนุมาน

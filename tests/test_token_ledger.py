@@ -53,7 +53,7 @@ def _make_db(path: Path, rows: list[tuple[str, str, str]]) -> Path:
 def _assistant(inp=0, out=0, reasoning=0, cache_read=0, cache_write=0, cost=0):
     return json.dumps({
         "time": {"created": 1, "completed": 2},
-        "agent": "ceo-turbo",
+        "agent": "ceo-hanuman",
         "model": {"id": "deepseek-v4.1-flash-free", "providerID": "opencode"},
         "cost": cost,
         "tokens": {

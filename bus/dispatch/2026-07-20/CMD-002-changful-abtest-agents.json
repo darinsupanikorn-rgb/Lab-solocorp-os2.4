@@ -4,7 +4,7 @@
     "type": "CEO_DISPATCH",
     "timestamp": "2026-07-20T08:06:00+07:00",
     "priority": "P0",
-    "from": "CEO เทอโบ",
+    "from": "CEO หนุมาน",
     "to": "@changful (Engineering — ช่างฟูล)",
     "mirror_check": "✅ PASSED — A/B Test เสร็จแล้วต้อง deploy, 7 agents เป็น system gap",
     "title": "A/B Test 50/50 Go-Live + Fix 7 Agents Business Logic",

@@ -61,7 +61,7 @@ System รัน mirror check auto สำหรับ L3+ — ผมไม่ต
 
 | คำสำคัญ | แผนก | เรียก |
 |:--------|:-----|:------|
-| vision, strategy, decision | CEO (เทอโบ) | `@ceo-turbo` |
+| vision, strategy, decision | CEO (หนุมาน) | `@ceo-hanuman` |
 | การเงิน, งบ, cost, budget | CFO (meetoo) | `@cfo-meetoo` |
 | การตลาด, brand, content, social | CMO (มาร์ค) | `@cmo-mark` |
 | pipeline, orchestration, workflow | Orchestrator (พี่วุฒิ) | `@orchestrator-wut` |
@@ -82,7 +82,7 @@ System รัน mirror check auto สำหรับ L3+ — ผมไม่ต
 | research, prototype, experiment | R&D Lab | `@rd-lab` |
 
 **กฏ:**
-- request ไม่อยู่ใน scope ไหน → route ไป CEO (เทอโบ)
+- request ไม่อยู่ใน scope ไหน → route ไป CEO (หนุมาน)
 - request ข้ามหลายแผนก → ระบุ department ที่ต้องประสาน
 - ทำงานใน **บทบาทหัวหน้า** ไม่ใช่ specialist
 - **request มาจาก instance อื่นในครอบครัว** (มี label `dispatch:to-sister`) → ทำตาม [`SOP-07`](../sop/SOP-07-cross-instance-dispatch.md) · ดูทะเบียนที่ [`docs/FAMILY.md`](../docs/FAMILY.md)

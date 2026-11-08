@@ -1,6 +1,6 @@
 # 📢 Team Announcement: API Key Protection Testing
 
-**From:** CEO (เทอโบ)  
+**From:** CEO (หนุมาน)  
 **To:** All SoloCorp OS Team Members  
 **Priority:** 🔴 High  
 **Deadline:** 2026-07-31  
@@ -66,7 +66,7 @@ Save as `bus/evidence/2026-07-27/api-key-test-[yourname].md`
 
 ## ❓ Need Help?
 
-**Questions:** Ask in #security channel or ping @ceo-turbo  
+**Questions:** Ask in #security channel or ping @ceo-hanuman  
 **Can't find files:** `git pull origin main` first  
 **Hook not working:** See troubleshooting in test guide  
 **Found a bug:** Report immediately — that's a WIN!  
@@ -113,7 +113,7 @@ Save as `bus/evidence/2026-07-27/api-key-test-[yourname].md`
 
 ## 📞 Contact
 
-**Urgent security issues:** @ceo-turbo (immediate response)  
+**Urgent security issues:** @ceo-hanuman (immediate response)  
 **General questions:** #security channel  
 **Bug reports:** Create GitHub issue with `[security]` tag  
 
@@ -121,5 +121,5 @@ Save as `bus/evidence/2026-07-27/api-key-test-[yourname].md`
 
 **Let's make SoloCorp OS the most secure AI organization!** 🛡️
 
-**— CEO เทอโบ**  
+**— CEO หนุมาน**  
 2026-07-27

@@ -4,7 +4,7 @@
     "type": "CEO_ESCALATION",
     "timestamp": "2026-08-04T09:03:00+07:00",
     "priority": "P2",
-    "from": "CEO เทอโบ",
+    "from": "CEO หนุมาน",
     "to": "@architect-songsak (พี่ทรงศักดิ์)",
     "title": "CMD-001 — Skill Routes: Task A ✅ สำเร็จแล้ว เหลืองาน D/E ต้องปิด",
     "context": "CMD-001 (dispatched 2026-07-20) — QA-002 (2026-07-27) ยืนยัน SkillHub closure: 9 routes ทำงานครบ POST /v1/skills/cross-dept/pipeline-bridge + mirror-check เรียกได้จริง (งาน A ✅, B ✅, C ✅) เหลืองาน D และ E ที่ยังค้างอยู่",

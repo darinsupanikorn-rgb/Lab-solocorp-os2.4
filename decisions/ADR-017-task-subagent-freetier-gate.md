@@ -2,7 +2,7 @@
 
 **วันที่:** 2026-10-14
 **สถานะ:** Accepted ✅
-**Owner:** CEO เทอโบ (L4 — ตัดสินแล้วรายงาน Owner)
+**Owner:** CEO หนุมาน (L4 — ตัดสินแล้วรายงาน Owner)
 **ที่มา:** Owner รายงานว่าเรียกแผนกอื่นใน OpenCode แล้วเจอ `OpenCode's free tier can only be used from within OpenCode`
 
 ---
@@ -19,7 +19,7 @@
 
 | เทสต์ | Desktop (Owner) | Harness (CEO) |
 |:------|:----------------|:--------------|
-| แชทหลัก ceo-turbo + muse-spark | ✅ รอด | ✅ รอด |
+| แชทหลัก ceo-hanuman + muse-spark | ✅ รอด | ✅ รอด |
 | CLI `opencode run` + muse-spark | — | ✅ รอด (โมเดลไม่ตาย) |
 | Task → `explore` (built-in, read-only) | ✅ รอด | ✅ รอด 2/2 |
 | Task → `general` (built-in, full tools) | ❌ แถวแดง + fallback | ❌ ร่วง |

@@ -4,7 +4,7 @@
     "type": "CEO_ESCALATION",
     "timestamp": "2026-07-26T12:01:00+07:00",
     "priority": "P0",
-    "from": "CEO เทอโบ",
+    "from": "CEO หนุมาน",
     "to": "@changful (Engineering — ช่างฟูล)",
     "title": "[URGENT] CMD-002 — A/B Test Deploy (P0) + 7 Agents (P1) Overdue",
     "context": "CMD-002 (dispatched 2026-07-20) — Task A ครบกำหนด 2026-07-21 (5 วัน overdue), Task B ครบกำหนด 2026-07-25 (1 วัน overdue)",

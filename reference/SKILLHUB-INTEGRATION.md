@@ -366,7 +366,7 @@ DRAFT ──▶ SCANNING ──▶ UPLOADED ──▶ PENDING_REVIEW ──▶ P
 
 | Namespace | Owner | Initial Members |
 |:----------|:------|:----------------|
-| `@solocorp/global` | `@ceo-turbo` | All department heads (MEMBER) |
+| `@solocorp/global` | `@ceo-hanuman` | All department heads (MEMBER) |
 | `@solocorp/security` | `@cybersec-sai` | Red Team Operator, Threat Analyst |
 | `@solocorp/engineering` | `@changful` | Engineering team members |
 

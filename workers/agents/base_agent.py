@@ -223,7 +223,7 @@ class BaseAgent:
         payload = {
             "task_id": task_id,
             "source_agent": self.agent_id,
-            "target_agent": "ceo-turbo",
+            "target_agent": "ceo-hanuman",
             "priority": "high" if status == "failed" else "normal",
             "payload": {
                 "action": "report_back",

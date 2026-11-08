@@ -4,7 +4,7 @@
     "type": "CEO_ESCALATION",
     "timestamp": "2026-08-04T09:02:00+07:00",
     "priority": "P1",
-    "from": "CEO เทอโบ",
+    "from": "CEO หนุมาน",
     "to": "@changful (Engineering) + @qa (QA Team)",
     "title": "[URGENT ROUND 2] CMD-004 — Auto-QA Pipeline T2/T3 เกิน deadline แล้ว",
     "context": "CMD-004 (dispatched 2026-07-20) — T1 (spec) สำเร็จและ acknowledged โดย engineering ตั้งแต่วันที่ 2026-07-20 แต่ T2 (implement) และ T3 (QA sign-off) ยังไม่มี evidence ปิดงาน — deadline เดิม 2026-07-25 เกินมา 10 วัน",

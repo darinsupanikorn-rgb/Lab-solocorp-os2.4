@@ -36,7 +36,7 @@
 
 ```
 Owner (Dr.solodev) — L5: vision, org, core product
-  └── CEO (เทอโบ) — L4: strategy, cross-dept, roadmap
+  └── CEO (หนุมาน) — L4: strategy, cross-dept, roadmap
         └── COO (กิจ/Kit) — L3: daily ops, team, front-line ← NEW
               ├── CFO, CMO, Orchestrator, Architect
               ├── Engineering, Design, Product, QA
@@ -74,4 +74,4 @@ Owner → [L1-L3] → COO triage → auto/assign
 ---
 
 *"SoloCorp OS = system that makes Owner unnecessary for daily operations"*
-— CEO เทอโบ, 2026-07-20
+— CEO หนุมาน, 2026-07-20

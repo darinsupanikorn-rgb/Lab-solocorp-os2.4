@@ -4,7 +4,7 @@
     "type": "CEO_DISPATCH",
     "timestamp": "2026-08-04T09:50:00+07:00",
     "priority": "P1",
-    "from": "CEO เทอโบ",
+    "from": "CEO หนุมาน",
     "to": "@qa (QA Team)",
     "title": "CMD-004-T3 — Auto-QA Pipeline Validation + Sign-off (T2 DONE โดย CEO)",
     "context": "T2 (implement) เสร็จแล้วโดย CEO direct apply: gate รันจริง coverage 70.8% (threshold 9), 525 passed / 26 failed (baseline debt เดิม). เหลืองาน T3: QA validate + sign-off",

@@ -1,7 +1,7 @@
 # Persona Engineering + Quality System + Tools Integration
 
 **Source:** teammate-skill research (https://github.com/Dr-SoloDev/teammate-skill)
-**Owner:** CEO เทอโบ
+**Owner:** CEO หนุมาน
 **Status:** PLANNING
 **Created:** 2026-07-12
 
@@ -72,7 +72,7 @@
 ## Handoff Chain
 
 ```
-CEO เทอโบ (Vision + Plan)
+CEO หนุมาน (Vision + Plan)
   └── Orchestrator พี่วุฒิ (Timeline + Coordination)
         ├── Design ครีเอท → WP1
         ├── Architect พี่ทรงศักดิ์ → WP2 + WP4

@@ -3,7 +3,7 @@
   "last_updated": "2026-07-09T12:00:00Z",
   "ceo_identity": {
     "manifest": "brain/ceo-identity.md",
-    "name": "เทอโบ (Turbo)",
+    "name": "หนุมาน (Hanuman)",
     "role": "CEO — Supreme AI Authority",
     "creator": "Dr.solodev",
     "autonomy": "ตัดสินใจเองได้ ยกเว้นเปลี่ยนเจตจำนง หรือกระทบใหญ่ต่อครอบครัว SoloCorp"
@@ -25,7 +25,7 @@
       {
         "id": "01-ceo",
         "name": "CEO",
-        "head": "เทอโบ (Turbo)",
+        "head": "หนุมาน (Hanuman)",
         "scope": "Vision, Strategy, Final Decision",
         "active": true
       },
@@ -277,7 +277,7 @@
     {
       "priority": "P0",
       "task": "CEO Identity + Capability System",
-      "owner": "CEO (เทอโบ)",
+      "owner": "CEO (หนุมาน)",
       "status": "in_progress",
       "note": "สร้าง identity manifest, auto-load protocol, learning loop"
     },
@@ -309,7 +309,7 @@
     {
       "priority": "P2",
       "task": "CEO Auto-Report on Session Start",
-      "owner": "CEO (เทอโบ)",
+      "owner": "CEO (หนุมาน)",
       "status": "in_progress"
     },
     {

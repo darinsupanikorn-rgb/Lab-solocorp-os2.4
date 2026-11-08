@@ -22,7 +22,7 @@ propagation_order = ["ceo", "architect", "cfo", "engineering", "product", "cmo"]
 
 [[mirror_layers]]
 department = "ceo"
-agent = "ceo-turbo"
+agent = "ceo-hanuman"
 mirror_name = "mirror-ceo"
 level = "L5"
 label = "Full Mirror — Digital Twin"

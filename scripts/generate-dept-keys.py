@@ -47,7 +47,7 @@ ALL_AGENTS = [
     ("ui-designer", "09-ui-designer", "UI — อินเทอร์เฟซ"),
     ("rd-lab", "19-rd-lab", "R&D Lab — วิจัย"),
     # Admin
-    ("ceo-turbo", "01-ceo", "CEO — บริหารสูงสุด"),
+    ("ceo-hanuman", "01-ceo", "CEO — บริหารสูงสุด"),
 ]
 
 
@@ -69,7 +69,7 @@ async def generate_all(agent_filter: str | None = None):
             department_name=desc,
             scope="dept",
             description=f"API key for {agent_id} ({desc})",
-            created_by="ceo-turbo",
+            created_by="ceo-hanuman",
         )
 
         full_key = result["full_key"]

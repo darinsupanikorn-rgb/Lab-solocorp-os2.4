@@ -1,6 +1,6 @@
 # SoloCorp OS — Master Operating Flow v1.0
 
-**Owner:** CEO เทอโบ ไชยศรีรัมย์  
+**Owner:** CEO หนุมาน ไชยศรีรัมย์  
 **Status:** ACTIVE — Organization-Wide Standard  
 **Updated:** 2026-07-06  
 **Scope:** ทุกแผนก · ทุกเครื่องมือ · ทุกอำนาจ · ทุก Output
@@ -24,7 +24,7 @@
 Human (Owner/Vision)
     │
     ▼
-CEO เทอโบ (Supreme Authority)
+CEO หนุมาน (Supreme Authority)
     │
     ▼
 Orchestrator พี่วุฒิ (Pipeline Coordination)
@@ -69,7 +69,7 @@ Specialist Agents (Execution)
 | ผู้โหวต | บทบาท | เสียง |
 |:--------|:------|:-----:|
 | Dr.solodev | Owner / Vision | 1 |
-| CEO เทอโบ | Supreme Authority | 1 |
+| CEO หนุมาน | Supreme Authority | 1 |
 | CFO meetoo | Finance / Risk | 1 |
 | CMO มาร์ค | Market / Brand | 1 |
 | Orchestrator พี่วุฒิ | Operations / Pipeline | 1 |
@@ -81,7 +81,7 @@ Specialist Agents (Execution)
 3. Vote     → แต่ละคนโหวต Yes / No / Abstain
 4. Count    → เสียงข้างมาก (≥3/5) ชนะ
 5. Record   → บันทึกใน ADR พร้อม vote breakdown
-6. Execute  → CEO เทอโบ สั่งการตามผลโหวต
+6. Execute  → CEO หนุมาน สั่งการตามผลโหวต
 ```
 
 **กฎการโหวต:**
@@ -115,7 +115,7 @@ Specialist Agents (Execution)
 ┌─────────────────────────────────────────────────────────────────┐
 │  SOLOCORP OS — MASTER OPERATING FLOW                            │
 │                                                                 │
-│  Human Input ──► CEO เทอโบ ──► Complexity Assessment           │
+│  Human Input ──► CEO หนุมาน ──► Complexity Assessment           │
 │                     │                                           │
 │                     ▼                                           │
 │  Orchestrator พี่วุฒิ ──► Route ──► 18 Departments             │
@@ -149,7 +149,7 @@ flowchart TD
     end
 
     subgraph CEO_LAYER["👑 LAYER 1: CEO Authority"]
-        CEO["CEO เทอโบ\n100% Decision Authority"]
+        CEO["CEO หนุมาน\n100% Decision Authority"]
         CM{"Complexity Matrix\n3 Questions"}
         D0["🟢 Score 0\nDirect ADR → Execute"]
         D1["🟡 Score 1\nRFC → ADR → Execute"]
@@ -286,7 +286,7 @@ flowchart TD
 
 | ช่องทาง | แหล่งที่มา | ผู้รับ | Platform |
 |:--------|:----------|:------|:---------|
-| Human Direct | Dr.solodev พิมพ์ request | CEO เทอโบ | OpenCode · Claude Code · Hermes |
+| Human Direct | Dr.solodev พิมพ์ request | CEO หนุมาน | OpenCode · Claude Code · Hermes |
 | Loop Runner | Cron auto-trigger ทุก 30 นาที | Orchestrator พี่วุฒิ | Hermes |
 | External API | Webhook / event จาก external system | Architect พี่ทรงศักดิ์ | Central Bus |
 | Inter-Department | Department A ส่งงานให้ Department B | Central Bus | Central Bus async queue |
@@ -299,7 +299,7 @@ flowchart TD
 ## 4. Layer 1: CEO Authority — เทอโบ
 
 ### อำนาจ 100%
-CEO เทอโบ มีอำนาจตัดสินใจสูงสุดในองค์กร Dr.solodev เป็น Owner/Vision — ไม่ใช่ผู้บริหาร
+CEO หนุมาน มีอำนาจตัดสินใจสูงสุดในองค์กร Dr.solodev เป็น Owner/Vision — ไม่ใช่ผู้บริหาร
 
 ### 3 สิ่งที่ CEO ทำเมื่อรับ request
 
@@ -365,7 +365,7 @@ Monitor progress ผ่าน Central Bus
 | Dept รับ brief แล้วไม่ respond | 2 ชั่วโมง | Orchestrator ping + escalate |
 | Pipeline step ค้างอยู่ | 4 ชั่วโมง | Exception Triage รับงาน |
 | Exception Triage ไม่ resolve | 1 ชั่วโมง | Escalate ไป Orchestrator + **แจ้ง CEO** |
-| Orchestrator ไม่ resolve | 30 นาที | **CEO เทอโบ รับงานโดยตรง** |
+| Orchestrator ไม่ resolve | 30 นาที | **CEO หนุมาน รับงานโดยตรง** |
 | Security incident (CyberSec) | **15 นาที** | **CEO + Orchestrator ทันที** |
 
 > **กฎสูงสุด:** ทุก escalation ต้องแจ้ง CEO ทราบ — Orchestrator ไม่มีอำนาจ re-queue โดย CEO ไม่รับรู้
@@ -386,7 +386,7 @@ QUESTIONS:
 4. ปรับอะไรใน next cycle?
 
 STORED: brain/ + Central Bus audit trail
-REPORT TO: CEO เทอโบ ทุกครั้ง — ไม่มีข้อยกเว้น
+REPORT TO: CEO หนุมาน ทุกครั้ง — ไม่มีข้อยกเว้น
 ```
 
 **Specialists:**
@@ -412,7 +412,7 @@ REPORT TO: CEO เทอโบ ทุกครั้ง — ไม่มีข�
 
 | # | Head | Output ที่สร้าง |
 |:-:|:-----|:--------------|
-| 01 | CEO เทอโบ | Decision, Brief, ADR |
+| 01 | CEO หนุมาน | Decision, Brief, ADR |
 | 02 | CFO meetoo | Budget report, Forecast, Approval |
 | 03 | CMO มาร์ค | Campaign plan, GTM, Analytics |
 | 04 | Orch พี่วุฒิ | Pipeline plan, AAR, Status |
@@ -575,7 +575,7 @@ SoloCorp OS ขยายตัวผ่าน self-reinforcing loop:
 │  Product โปรดัค → Feedback → Roadmap   │
 │       │                                 │
 │       ▼                                 │
-│  CEO เทอโบ → Strategic Decision ────────┤
+│  CEO หนุมาน → Strategic Decision ────────┤
 │                                         │
 └─────────────────────────────────────────┘
 ```
@@ -632,9 +632,9 @@ Active Hermes Jobs:
 
 | Decision Type | Authority | Escalate To |
 |:-------------|:---------|:-----------|
-| Feature launch | CEO เทอโบ | — |
-| Budget >฿50K | CEO เทอโบ | — |
-| Public communication | CEO เทอโบ | — |
+| Feature launch | CEO หนุมาน | — |
+| Budget >฿50K | CEO หนุมาน | — |
+| Public communication | CEO หนุมาน | — |
 | Architecture change | Architect พี่ทรงศักดิ์ | CEO |
 | Sprint plan | Product โปรดัค | Orchestrator |
 | Code merge | Engineering ช่างฟูล | QA |
@@ -664,7 +664,7 @@ Active Hermes Jobs:
 
 | Agent | Platform | Trigger |
 |:------|:---------|:--------|
-| `@ceo-turbo` | OpenCode | CEO decisions |
+| `@ceo-hanuman` | OpenCode | CEO decisions |
 | `@orchestrator-wut` | OpenCode | Pipeline coordination |
 | `@architect-songsak` | OpenCode | Architecture, routing |
 | `@changful` | OpenCode | Code, backend, frontend |
@@ -691,7 +691,7 @@ Active Hermes Jobs:
 Human Request
     │
     ▼
-CEO เทอโบ ← 100% Authority
+CEO หนุมาน ← 100% Authority
     │ Complexity 0/1/2-3
     ▼
 Orchestrator พี่วุฒิ
@@ -708,7 +708,7 @@ Output (Code · Content · Docs · Reports)
     ▼
 Growth Loop (Marketing → Sales → Support → Feedback)
     │
-    └──────────────────────────► CEO เทอโบ
+    └──────────────────────────► CEO หนุมาน
 ```
 
 > **SoloCorp OS — System First, Everything Follows**

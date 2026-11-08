@@ -2,7 +2,7 @@
   "event_id": "audit-8fb4f678",
   "event_type": "DISPATCH",
   "timestamp": "2026-07-20T10:29:44.379571",
-  "actor": "ceo-turbo",
+  "actor": "ceo-hanuman",
   "action": "dispatch_approved",
   "resource": "CMD-004",
   "proposal_ref": "PROP-0003",

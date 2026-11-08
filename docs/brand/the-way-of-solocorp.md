@@ -1,6 +1,6 @@
 # The Way of SoloCorp — แนวทางของเรา
 
-> **Author:** Owner + CEO (เทอโบ)  
+> **Author:** Owner + CEO (หนุมาน)  
 > **Date:** 2026-07-07  
 > **Status:** ✅ Core Identity — ไม่ประนีประนอม
 

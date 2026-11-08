@@ -279,7 +279,7 @@ Input: /compare [A] vs [B] [optional: "for <task>"]
 | R6 | WP6 privacy scanner flags too many false positives | Medium | Medium | Tune regex rules for SoloCorp context; allow whitelist-based exemptions | @legal-tulya |
 | R7 | WP7 compare mode has no data to compare (other WPs slip) | Low | Critical | WP7 start is W4 — acts as buffer; if earlier WPs slip, adjust WP7 scope to design-only | @orchestrator-wut |
 | R8 | WPs overlap contention (Songsak owns WP2 + WP4 simultaneously) | High | Medium | WP4 design spec done in W1 (idle); WP2 coding W1-W2 → WP4 coding W2-W3 — sequential pipeline | @orchestrator-wut |
-| R9 | Owner (Dr.solodev) unavailable for final sign-off | Low | High | CEO (เทอโบ) has delegated authority for all gates except G6 | CEO |
+| R9 | Owner (Dr.solodev) unavailable for final sign-off | Low | High | CEO (หนุมาน) has delegated authority for all gates except G6 | CEO |
 
 ---
 
@@ -289,7 +289,7 @@ Input: /compare [A] vs [B] [optional: "for <task>"]
 Gate issues → Report to Orchestrator (พี่วุฒิ)
   ├── Resolvable at WP level → Orchestrator coordinates fix
   ├── Cross-department conflict → Orchestrator mediates + handoff table
-  └── Blocking / scope change → Escalate to CEO (เทอโบ) with recommendation
+  └── Blocking / scope change → Escalate to CEO (หนุมาน) with recommendation
 ```
 
 ---

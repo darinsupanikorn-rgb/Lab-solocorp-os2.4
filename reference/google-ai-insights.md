@@ -38,7 +38,7 @@
 ```
 👤 Dr.solodev (Owner / Human) — Vision + Final Say
     │
-    └── 👑 CEO (เทอโบ) — Supreme AI Authority
+    └── 👑 CEO (หนุมาน) — Supreme AI Authority
             │  รับวิสัยทัศน์ → ตัดสินใจ → สั่งการ
             │
             └── 🏛️ Architect — System Designer

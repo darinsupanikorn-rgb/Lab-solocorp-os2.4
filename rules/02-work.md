@@ -6,7 +6,7 @@
 
 ```
 Dr.solodev (Owner) — Vision + Final Say (L5 only)
-  └── CEO (เทอโบ) — Supreme AI Authority
+  └── CEO (หนุมาน) — Supreme AI Authority
         ├── CFO (meetoo)
         ├── CMO (มาร์ค)
         ├── Orchestrator (พี่วุฒิ)

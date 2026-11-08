@@ -2,7 +2,7 @@
 
 **วันที่:** 2026-10-25
 **สถานะ:** Proposed ⏳ — รอ Owner (L5 บางข้อ) / CEO (L4) ตัดสินใจ
-**Owner:** CEO เทอโบ (รวบรวม) → Dr.solodev (ตัดสินข้อที่แตะ org structure + quality baseline)
+**Owner:** CEO หนุมาน (รวบรวม) → Dr.solodev (ตัดสินข้อที่แตะ org structure + quality baseline)
 **ที่มา:** Owner รายงานว่า "logic เดิมขัดแย้งกันจนไม่รู้จะเริ่มต่อยังไง" (25 ต.ค. 2569) — ทวนอ่าน `rules/01–06` + `sop/SOP-01–07` ทั้งหมดแล้วพบ 12 จุดที่สองฉบับ (หรือสองไฟล์) สั่งสิ่งต่างกันในเรื่องเดียว
 **เกี่ยวกับ:** ADR-016 (behavior-centric routing) · ADR-017 (@mention gate) · ADR-028 (mirror scoring แยกตามระดับ)
 

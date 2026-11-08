@@ -1,6 +1,6 @@
 # CEO Report — Behavior-Centric Routing: Phase 1 Complete
 
-**ถึง:** CEO เทอโบ
+**ถึง:** CEO หนุมาน
 **จาก:** พี่ทรงศักดิ์ (Head of Architect)
 **วันที่:** 2026-07-20
 **เรื่อง:** สรุปผลการดำเนินงาน Behavior-Centric Routing ตาม CEO Order

@@ -2,7 +2,7 @@
 
 **Status:** ✅ Ready for Team Testing  
 **Date:** 2026-07-27  
-**CEO:** เทอโบ (Turbo)
+**CEO:** หนุมาน (Hanuman)
 
 ---
 
@@ -126,7 +126,7 @@ cat bus/evidence/$(date +%Y-%m-%d)/api-key-test-<your-name>.md
 
 | Issue | Contact | Action |
 |-------|---------|--------|
-| **API Key Leaked** | CEO (เทอโบ) | Revoke immediately |
+| **API Key Leaked** | CEO (หนุมาน) | Revoke immediately |
 | **Hook Not Working** | Architect (ทรงศักดิ์) | System debugging |
 | **Test Script Fails** | Engineering (ช่างฟูล) | Code fix |
 | **Documentation Unclear** | Support (support) | Doc update |
@@ -197,7 +197,7 @@ After testing, each team member will:
 ## 🏆 Recognition
 
 **First to Complete:**
-- 🥇 CEO (เทอโบ) — 2026-07-27 07:33:55
+- 🥇 CEO (หนุมาน) — 2026-07-27 07:33:55
 
 **Fast Track (< 1 min):**
 - None yet
@@ -210,13 +210,13 @@ After testing, each team member will:
 ## 💬 Team Feedback
 
 > "System works great! Clear error messages and fast testing."  
-> — CEO เทอโบ
+> — CEO หนุมาน
 
 ---
 
 ## ✅ Sign-off
 
-**Prepared by:** CEO เทอโบ (Turbo)  
+**Prepared by:** CEO หนุมาน (Turbo)  
 **Date:** 2026-07-27  
 **Status:** ✅ Ready for Team Rollout
 

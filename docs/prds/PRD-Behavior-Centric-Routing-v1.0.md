@@ -385,4 +385,4 @@ Classifier Output: [behavior_1: 0.92, behavior_2: 0.04, behavior_3: 0.02, ...]
 
 **PRD Prepared by:** Product (โปรดัค)
 **Reviewed by:** Architect (พี่ทรงศักดิ์) — Pending schema design
-**Approved by:** CEO (เทอโบ) ✅ — Key decisions finalized
+**Approved by:** CEO (หนุมาน) ✅ — Key decisions finalized

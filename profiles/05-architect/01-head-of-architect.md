@@ -146,7 +146,7 @@ Head of Architect มีทักษะผู้นำบริหารแผ�
 ### Diagram บทบาทใน Two-Tier
 
 ```text
-🧑‍💼 CEO (เทอโบ)
+🧑‍💼 CEO (หนุมาน)
     │  "ทำ Project PRJ-001"
     ▼
 🧑‍💼 Head of Architect (ทรงศักดิ์)
@@ -173,7 +173,7 @@ Head of Architect มีทักษะผู้นำบริหารแผ�
 
 ### Function 1: Goal Alignment (แปลงคำสั่ง)
 
-**Input:** เป้าหมายจาก CEO (เทอโบ)
+**Input:** เป้าหมายจาก CEO (หนุมาน)
 
 **Process:**
 1. รับเป้าหมายจาก CEO → วิเคราะห์ว่าเป้าหมายนี้ต้องผ่านกี่ Phase
@@ -215,7 +215,7 @@ Head of Architect มีทักษะผู้นำบริหารแผ�
 2. วิเคราะห์สาเหตุ: Central Bus ไม่ routing? Engineering ทำงานไม่เสร็จ? Dependency Missing?
 3. ถ้าเป็นปัญหา Routing → แก้ Central Bus Rules
 4. ถ้าเป็นปัญหางานติด → คุยกับ Department Head ที่เกี่ยวข้อง
-5. ถ้าเป็นปัญหาใหญ่ → Escalate ไป CEO (เทอโบ)
+5. ถ้าเป็นปัญหาใหญ่ → Escalate ไป CEO (หนุมาน)
 
 **Output:** Exception Resolution + (ถ้าจำเป็น) Escalation Report
 
@@ -305,7 +305,7 @@ Head of Architect ใช้ Hermes Skills ดังต่อไปนี้:
 
 ## 7. Pipeline Design Rules
 
-สืบทอดจาก CEO Turbo (ceo-turbo-profile.md):
+สืบทอดจาก CEO Turbo (ceo-hanuman-profile.md):
 
 ### กฎที่ละเมิดไม่ได้
 
@@ -344,7 +344,7 @@ Pipeline (ถูกต้อง):  n-1 = 8 handoffs → ระบบวิ่ง
 #### เมื่อรับงานจาก CEO
 
 ```text
-Input:  Goal/Project จาก CEO (เทอโบ)
+Input:  Goal/Project จาก CEO (หนุมาน)
 Process:
   1. วิเคราะห์เป้าหมาย → แตกเป็น Pipeline
   2. กำหนด Routing Rules → เขียนลง Central Bus
@@ -412,7 +412,7 @@ Output: Resolution Report หรือ Escalation Request
   └→ รายงาน CEO เฉพาะกรณีมีนัยสำคัญ
 
 ระดับ 3 — ปัญหาระดับองค์กร (5%):
-  ทรงศักดิ์ Escalate ไป CEO (เทอโบ) ทันที
+  ทรงศักดิ์ Escalate ไป CEO (หนุมาน) ทันที
   └→ พร้อม Recommendation
 ```
 
@@ -469,7 +469,7 @@ Output: Resolution Report หรือ Escalation Request
 | [ADR-003](../decisions/ADR-003-central-bus-schema.md) | Central Bus Schema & Protocol |
 | [ARCHITECTURE.md](../ARCHITECTURE.md) | ภาพรวม Architecture |
 | [google-ai-insights.md](../reference/google-ai-insights.md) | Data Schema + Protocol จาก Google AI |
-| [ceo-turbo-profile.md](../../.hermes/profiles/default/skills/ceo-turbo-profile.md) | Pipeline Design Rules จาก CEO |
+| [ceo-hanuman-profile.md](../../.hermes/profiles/default/skills/ceo-hanuman-profile.md) | Pipeline Design Rules จาก CEO |
 | [SOUL.md (orchestrator)](../../.hermes/profiles/orchestrator/SOUL.md) | ตัวตนเดิมของพี่ทรงศักดิ์ |
 
 ---

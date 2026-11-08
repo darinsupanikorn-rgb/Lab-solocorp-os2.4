@@ -17,7 +17,7 @@
 |:-----|:----------------|:------------|:----------------|
 | Department / system agents | **21** ใน `.opencode/agents/` | **6** ใน `.grok/agents/` | **≥ 21** + COO + depts Active ที่ยังขาด (neteng, cybersec, psychology, coo, rd-lab) ตาม priority |
 | Slash / pipeline commands | **19** ใน `opencode.json` | **7** skills | **19** skills ใน `.grok/skills/` |
-| Default session identity | `default_agent: ceo-turbo` | AGENTS.md เท่านั้น | Bootstrap + CEO-default behavior ใน skill + AGENTS |
+| Default session identity | `default_agent: ceo-hanuman` | AGENTS.md เท่านั้น | Bootstrap + CEO-default behavior ใน skill + AGENTS |
 | MCP SoloCorp | list/route/SOUL/commands | เหมือนกัน (7 tools) | + runtime ops (health, queue, handoff, dispatch) |
 | Dept skills `@solocorp/*` | ผ่าน skills.paths | ไม่มี port | Port ทุก skill ที่ OpenCode เรียกได้ |
 | Multi-dept pipeline | native multi-agent | depth 1 | Workflow / Orchestrator fan-out ชดเชย |
@@ -70,7 +70,7 @@
 | `rd-lab` (lead) | `19-rd-lab` | P2 |
 
 **มีแล้วใน Grok (6):**  
-`ceo-turbo`, `orchestrator-wut`, `architect-songsak`, `product-produck`, `engineering-changful`, `qa`
+`ceo-hanuman`, `orchestrator-wut`, `architect-songsak`, `product-produck`, `engineering-changful`, `qa`
 
 ### 2.2 Skills / commands — มีใน OpenCode แต่ยังไม่มีใน Grok
 
@@ -105,7 +105,7 @@
 | Capability | OpenCode | Grok gap |
 |:-----------|:---------|:---------|
 | Default CEO | `default_agent` | ต้อง enforce ผ่าน AGENTS + `/bootstrap` |
-| `@ceo-turbo` | native | ใช้ “ทำตัวเป็น CEO” / spawn |
+| `@ceo-hanuman` | native | ใช้ “ทำตัวเป็น CEO” / spawn |
 | Auto session inject | `/bootstrap` | ยังไม่มี skill |
 
 ---
@@ -145,11 +145,11 @@ Plan 3  — Hardening & Gold        → smoke, CI drift, matrix 🟢, acceptance
 
 | # | Task | Owner | Output |
 |:-:|:-----|:------|:-------|
-| 1.1 | ออกแบบ template agent มาตรฐาน Grok (frontmatter + When to invoke + Boundaries + SOUL path) จาก `.grok/agents/ceo-turbo.md` | Eng | ใช้ซ้ำทุก agent ใหม่ |
+| 1.1 | ออกแบบ template agent มาตรฐาน Grok (frontmatter + When to invoke + Boundaries + SOUL path) จาก `.grok/agents/ceo-hanuman.md` | Eng | ใช้ซ้ำทุก agent ใหม่ |
 | 1.2 | เพิ่ม **P0 agents**: `coo-kit`, `cfo-meetoo`, `cmo-mark`, `design-kreet`, `ui-designer` | Eng | `.grok/agents/*.md` |
 | 1.3 | เพิ่ม **P1 agents**: sales, support, legal, web3, content, monitor-watchdog, pipeline-auditor, routing-config-agent | Eng | `.grok/agents/*.md` |
 | 1.4 | Port skills ที่ขาด → `.grok/skills/<name>/SKILL.md` (map จาก `opencode.json` + `.claude/commands/` + `skills/@solocorp/*`) | Eng | skill dirs ครบ 19 |
-| 1.5 | อัปเดต `AGENTS.md` — ตาราง agent types ครบ + natural-language aliases (`@ceo` → spawn `ceo-turbo`) | CEO/Eng | `AGENTS.md` |
+| 1.5 | อัปเดต `AGENTS.md` — ตาราง agent types ครบ + natural-language aliases (`@ceo` → spawn `ceo-hanuman`) | CEO/Eng | `AGENTS.md` |
 | 1.6 | อัปเดต `.grok/README.md` + `docs/GROK-SUPPORT.md` รายการ agents/skills ใหม่ | Product/Eng | docs |
 | 1.7 | Manual smoke: `grok inspect` + `/` เห็น skills + spawn 1 head ใหม่ | QA | checklist pass |
 

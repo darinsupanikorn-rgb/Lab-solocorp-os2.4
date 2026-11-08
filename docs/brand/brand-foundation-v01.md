@@ -1,7 +1,7 @@
 # SoloCorp OS — Brand Foundation Document v0.1
 
 > **Status:** Draft — ยังไม่ approve  
-> **Owner:** CEO (เทอโบ) + CMO (มาร์ค)  
+> **Owner:** CEO (หนุมาน) + CMO (มาร์ค)  
 > **Version:** 0.1  
 > **Date:** 2026-07-07  
 > **Next Review:** [รอ CEO กำหนด]
@@ -285,5 +285,5 @@ SoloCorp OS จะเป็น:
 
 ---
 
-**Brand Foundation v0.1** — Draft by CMO (มาร์ค) || Reviewed by CEO (เทอโบ)  
+**Brand Foundation v0.1** — Draft by CMO (มาร์ค) || Reviewed by CEO (หนุมาน)  
 **รอ CEO + Owner อนุมัติก่อนประกาศใช้**

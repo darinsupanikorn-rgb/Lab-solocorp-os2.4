@@ -1,6 +1,6 @@
 # 📌 หมุดหมายถาวร — Frontier Builder / Infrastructure for Agents
 **วันที่:** 2026-10-07
-**โดย:** Dr.solodev (Owner, L5 vision) + CEO เทอโบ รับรอง
+**โดย:** Dr.solodev (Owner, L5 vision) + CEO หนุมาน รับรอง
 **สถานะ:** LOCKED — ธงชัยปลายทางขององค์กร
 
 ---
@@ -90,4 +90,4 @@ building this in the open — excited to follow and help where I can.
 ---
 
 *Owner ฝัน → CEO สั่ง → Architect ออกแบบ → ทีมสร้าง → องค์กรอยู่ยืนยง*
-*บันทึกโดย CEO เทอโบ — หมุดนี้ถาวร เปลี่ยนได้เฉพาะ Owner (L5) เท่านั้น*
+*บันทึกโดย CEO หนุมาน — หมุดนี้ถาวร เปลี่ยนได้เฉพาะ Owner (L5) เท่านั้น*

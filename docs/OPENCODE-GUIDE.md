@@ -8,10 +8,10 @@
 ```bash
 git clone https://github.com/Dr-SoloDev/Lab-solocorp-os2.4.git
 cd Lab-solocorp-os2.4
-opencode "@ceo-turbo สวัสดี"
+opencode "@ceo-hanuman สวัสดี"
 ```
 
-1. คุยกับ **CEO เทอโบ** ก่อนเสมอ — บอกงานภาษาคนได้เลย
+1. คุยกับ **CEO หนุมาน** ก่อนเสมอ — บอกงานภาษาคนได้เลย
 2. งานใหญ่ → CEO จะแตกงานแล้วเปิด **ห้องแยกให้แต่ละแผนก** (ดูหัวข้อ multi-chat)
 3. ไม่ต้องรู้คำสั่งเยอะ — เริ่มด้วย `/status` (ดูสุขภาพ) และ `/workspace` (เปิดห้องแผนก)
 

@@ -71,7 +71,7 @@ R&D Lab ───┬── Lead Researcher
             └── Wild Card(s)
 ```
 
-**ไม่ผ่าน** CEO (เทอโบ), Orchestrator (พี่วุฒิ), หรือ Architect (พี่ทรงศักดิ์)  
+**ไม่ผ่าน** CEO (หนุมาน), Orchestrator (พี่วุฒิ), หรือ Architect (พี่ทรงศักดิ์)  
 **Dr.solodev สั่งตรงได้ทุกเมื่อ**
 
 ---

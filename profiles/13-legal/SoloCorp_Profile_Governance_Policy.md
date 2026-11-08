@@ -2,7 +2,7 @@
 ## ฉบับที่ 1.0 — มีผลบังคับใช้วันที่ 22 มิถุนายน 2026
 
 **ผู้จัดทำ:** Legal (คุณตุลย์) — Head of Legal & Governance, SoloCorp OS  
-**ผู้อนุมัติ:** CEO (เทอโบ)  
+**ผู้อนุมัติ:** CEO (หนุมาน)  
 **ประเภทเอกสาร:** นโยบายองค์กร (Corporate Policy)  
 **อายุเอกสาร:** ทบทวนทุก 90 วัน หรือเมื่อมีการแก้ไข Org Chart
 
@@ -169,7 +169,7 @@ SOUL.md ต้องมีโครงสร้างอย่างน้อย
 
 | Profile | Owner (Role) | Department | รับผิดชอบโดย |
 |---------|-------------|-----------|-------------|
-| `ceo` | CEO (เทอโบ) | Executive | CEO เอง |
+| `ceo` | CEO (หนุมาน) | Executive | CEO เอง |
 | `cfo` | CFO (meetoo) | Finance | CFO |
 | `cmo` (ปัจจุบันคือ `mkt`) | CMO (มาร์ค) | Marketing | CMO (ต้อง rename ก่อน) |
 | `architect` | Arch (คุณวุฒิ) | Architecture | คุณวุฒิ |
@@ -311,7 +311,7 @@ SOUL.md ต้องมีโครงสร้างอย่างน้อย
 
 | Profile | Naming OK? | Has config? | Has profile.yaml? | Has SOUL.md? | Owner assigned? | Org Chart Match? | สถานะ |
 |---------|:---------:|:----------:|:----------------:|:-----------:|:--------------:|:---------------:|:-----:|
-| `ceo` | ✅ | ✅ | ✅ | ✅ | ✅ CEO (เทอโบ) | ✅ CEO | **COMPLIANT** |
+| `ceo` | ✅ | ✅ | ✅ | ✅ | ✅ CEO (หนุมาน) | ✅ CEO | **COMPLIANT** |
 | `cfo` | ✅ | ✅ | ✅ | ✅ | ✅ CFO (meetoo) | ✅ CFO | **COMPLIANT** |
 | `mkt` | ❌ | ✅ | ❌ | ❌ | ❓ CMO (มาร์ค) | ❌ แผนก CMO | **NON-COMPLIANT** |
 | `architect` | ✅ | ✅ | ❌ | ❌ | ❓ Arch (คุณวุฒิ) | ✅ Architect | **PARTIALLY COMPLIANT** |
@@ -422,7 +422,7 @@ SOUL.md ต้องมีโครงสร้างอย่างน้อย
 profiles:
   - name: ceo
     status: active
-    owner: "CEO (เทอโบ)"
+    owner: "CEO (หนุมาน)"
     department: Executive
     org_chart_position: CEO
     created: "2026-01-01"

@@ -1,6 +1,6 @@
 # SOP-02: Escalation — L1-L5 Decision Filter
 
-**Owner:** CEO เทอโบ (L1-L4), Owner (L5)  
+**Owner:** CEO หนุมาน (L1-L4), Owner (L5)  
 **Version:** v1.0  
 **Applies to:** All Department Heads → CEO → Owner
 
@@ -25,7 +25,7 @@ L3: Department Head
   → ถ้า < 3 departments → Head-to-Head โดยตรง
   → Report กลับ CEO: "ทำแล้ว" / "มี issue"
 
-L4: CEO (เทอโบ)
+L4: CEO (หนุมาน)
   → Decision ที่ impact 3+ departments
   → Budget/Strategy/Forecast
   → CEO ตัดสินใจ → รายงาน Owner ตอนจบ (3-line)
@@ -50,7 +50,7 @@ Request → Level Classification
 
 ## เมื่อ Head ไม่แน่ใจ
 
-- Consult CEO เทอโบ ก่อน escalate ไป Owner
+- Consult CEO หนุมาน ก่อน escalate ไป Owner
 - CEO = gatekeeper L5 — Owner ต้องไม่โดน L1-L4 รบกวน
 
 ## Violation

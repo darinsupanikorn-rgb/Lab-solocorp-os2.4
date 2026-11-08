@@ -4,7 +4,7 @@
 
 ## 2026-07-27 07:35 — API Key Protection Team Rollout ✅
 
-**CEO:** เทอโบ (Turbo)  
+**CEO:** หนุมาน (Hanuman)  
 **Owner Request:** ป้องกัน API Key รั่วไปบน GitHub  
 **Status:** ✅ Complete — Ready for Team Testing
 
@@ -48,7 +48,7 @@ Test 4 (Cleanup):      ⚠️ WARNING (expected)
 Overall: PASS
 ```
 
-**Report:** `bus/evidence/2026-07-27/api-key-test-ceo-turbo.md`
+**Report:** `bus/evidence/2026-07-27/api-key-test-ceo-hanuman.md`
 
 ---
 
@@ -97,7 +97,7 @@ Overall: PASS
 - [ ] Legal (ตุลย์)
 - [ ] Web3 (อัยวา)
 - [ ] Content (เสก)
-- [x] CEO (เทอโบ) ✅
+- [x] CEO (หนุมาน) ✅
 
 **Phase 2:** Specialist Agents (Due: 2026-07-31)
 - [ ] Cron Pipeline
@@ -209,7 +209,7 @@ After testing, each member will:
 - ✅ 6 markdown files — 1,437 lines total
 
 **Evidence:**
-- ✅ CEO test report — `bus/evidence/2026-07-27/api-key-test-ceo-turbo.md`
+- ✅ CEO test report — `bus/evidence/2026-07-27/api-key-test-ceo-hanuman.md`
 
 **Tracking:**
 - ✅ Dashboard — `bus/API-KEY-TEST-DASHBOARD.md`
@@ -239,11 +239,11 @@ After testing, each member will:
 ### 🏆 Recognition
 
 **First to Complete:**
-- 🥇 CEO (เทอโบ) — 2026-07-27 07:33:55
+- 🥇 CEO (หนุมาน) — 2026-07-27 07:33:55
 
 **Quote:**
 > "System works great! Clear error messages and fast testing. Hook caught everything it should, and let through everything it shouldn't block. Team is ready to roll."  
-> — CEO เทอโบ
+> — CEO หนุมาน
 
 ---
 
@@ -316,13 +316,13 @@ After testing, each member will:
 - `bus/TEAM-ROLLOUT-COMPLETE.md`
 
 **Evidence:**
-- `bus/evidence/2026-07-27/api-key-test-ceo-turbo.md`
+- `bus/evidence/2026-07-27/api-key-test-ceo-hanuman.md`
 
 ---
 
 ### ✅ Sign-off
 
-**Prepared by:** CEO เทอโบ (Turbo)  
+**Prepared by:** CEO หนุมาน (Turbo)  
 **Date:** 2026-07-27 07:35  
 **Commit:** fd81fe3  
 **Status:** ✅ Complete — Ready for Team Rollout
@@ -790,7 +790,7 @@ State tracking files: 0
 ## 2026-10-21 (เย็น) — 🔍 รีวิว PR #19 (fork ลูกศิษย์) + แก้ CI แดง 26 → 0
 
 **Mode:** Review (ตรวจชิ้นงาน) → Strategic (Owner ตัดสิน 2 ข้อ) → Command (merge ก้อน A)
-**Owner:** Dr.solodev · **ผู้ตรวจ:** CEO เทอโบ (maker ≠ checker)
+**Owner:** Dr.solodev · **ผู้ตรวจ:** CEO หนุมาน (maker ≠ checker)
 
 ### เจออะไร
 - fork ทั้งหมด 3: `darinsupanikorn-rgb` (มีงานจริง) · `TheoryOfEverything698` (idle) · `Ayoub123AI` (idle)
@@ -830,7 +830,7 @@ State tracking files: 0
 ## 2026-10-21 (เย็น ต่อ) — 👨‍👩‍👧‍👦 หนุมาน = สมาชิกครอบครัวคนที่ 2
 
 **Mode:** Strategic (Owner ตัดสิน) → Command (สร้างระบบฝากงานข้ามบ้าน)
-**Owner:** Dr.solodev · **ผู้ตรวจ:** CEO เทอโบ
+**Owner:** Dr.solodev · **ผู้ตรวจ:** CEO หนุมาน
 
 ### Owner สั่ง
 > *"ไม่มีอะไรฝากไห้ CEO หนุมานของ น้องดาริน ศิษย์ฉันหน่อยเหรอ ครอบครัว Solocorp คนแรกเลยน่ะนั่น"*
@@ -870,7 +870,7 @@ State tracking files: 0
 ## 2026-10-21 (ดึก) — 🔬 Deep system health check: mirror check + certification ladder audit
 
 **Mode:** Review (ตรวจสุขภาพเชิงลึก) → Command (แก้ defect)
-**Owner:** Dr.solodev · **ผู้ตรวจ:** CEO เทอโบ
+**Owner:** Dr.solodev · **ผู้ตรวจ:** CEO หนุมาน
 
 ### เครื่องมือใหม่: `scripts/certification-audit.py`
 ตรวจบันได 4 ด่าน **จากหลักฐานจริงใน repo** ไม่เชื่อทะเบียน + จับกรณีทะเบียนอ้างเกินจริง

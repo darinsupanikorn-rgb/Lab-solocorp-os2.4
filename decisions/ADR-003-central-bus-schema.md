@@ -577,7 +577,7 @@ Agent A ไม่สน: ว่า Pipeline มีกี่ขั้นตอน
 | [Profile #01](../profiles/01-head-of-orchestration.md) | Head of Orchestration Design |
 | [ARCHITECTURE.md](../ARCHITECTURE.md) | ภาพรวม Architecture |
 | [google-ai-insights.md](../reference/google-ai-insights.md) | Data Schema + Protocol จาก Google AI |
-| [ceo-turbo-profile.md](../../.hermes/profiles/default/skills/ceo-turbo-profile.md) | Pipeline Design Rules จาก CEO |
+| [ceo-hanuman-profile.md](../../.hermes/profiles/default/skills/ceo-hanuman-profile.md) | Pipeline Design Rules จาก CEO |
 
 ---
 

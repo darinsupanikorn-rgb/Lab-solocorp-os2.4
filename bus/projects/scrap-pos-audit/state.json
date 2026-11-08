@@ -6,27 +6,27 @@
   "phases": {
     "spec": {
       "status": "done",
-      "owner": "ceo-turbo"
+      "owner": "ceo-hanuman"
     },
     "design": {
       "status": "done",
-      "owner": "ceo-turbo"
+      "owner": "ceo-hanuman"
     },
     "arch": {
       "status": "done",
-      "owner": "ceo-turbo"
+      "owner": "ceo-hanuman"
     },
     "dev": {
       "status": "done",
-      "owner": "ceo-turbo"
+      "owner": "ceo-hanuman"
     },
     "qa": {
       "status": "done",
-      "owner": "ceo-turbo"
+      "owner": "ceo-hanuman"
     },
     "deploy": {
       "status": "done",
-      "owner": "ceo-turbo"
+      "owner": "ceo-hanuman"
     }
   },
   "blockers": [],

@@ -1,7 +1,7 @@
 # SoloCorp OS — GTM Announcement Strategy v1.0
 
 **By:** มาร์ค (CMO) × เซลส์ (Sales Head)
-**Authorized by:** CEO เทอโบ
+**Authorized by:** CEO หนุมาน
 **Date:** 2026-07-06
 **Status:** APPROVED FOR EXECUTION
 

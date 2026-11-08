@@ -13,7 +13,7 @@ Owner สั่งตรง: fallback 4 โมเดล Space Bunny -> Muse Spar
 - Docstring updated
 
 ### Layer B — defaults
-- opencode.json agent.ceo-turbo.model: x-preview-f-free → space-bunny-free
+- opencode.json agent.ceo-hanuman.model: x-preview-f-free → space-bunny-free
 - .opencode/agents/*.md 21 files: x-preview-f-free → space-bunny-free (verified uniq -c = 21)
 - profiles/*/config.yaml (13, custom:maxplus-codex stealth/ox-alpha) — NOT touched, left for Architect CMD-005-T2 decision (separate MaxPlus system)
 

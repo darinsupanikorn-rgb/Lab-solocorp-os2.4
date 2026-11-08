@@ -1,7 +1,7 @@
 # SoloCorp OS — Content Launch Plan
 
 **By:** เสก (Content Creator Head)
-**Authorized by:** CEO เทอโบ
+**Authorized by:** CEO หนุมาน
 **Date:** 2026-07-06
 
 ---

@@ -197,7 +197,7 @@ def audit_models(use_cache: bool = True) -> dict:
     }
 _CMD = os.environ.get("OPENCODE_BIN", os.path.expanduser("~/.opencode/bin/opencode"))
 # agent สำหรับงาน LLM แบบ one-shot: ต้อง read-only/ไม่มี tool ที่ต้องขออนุญาต
-# default agent ของโปรเจกต์ (ceo-turbo) มี shell/write → subprocess ที่ไม่มี TTY
+# default agent ของโปรเจกต์ (ceo-hanuman) มี shell/write → subprocess ที่ไม่มี TTY
 # จะค้างที่ "permission requested: shell" แล้วล้มทั้ง chain
 _AGENT = os.environ.get("OPENCODE_AGENT", "plan")
 _MAX_CONCURRENT = 3

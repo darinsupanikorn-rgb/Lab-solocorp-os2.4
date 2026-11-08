@@ -4,7 +4,7 @@
     "type": "CEO_DISPATCH",
     "timestamp": "2026-09-27T00:00:00+07:00",
     "priority": "P1",
-    "from": "CEO เทอโบ (Turbo)",
+    "from": "CEO หนุมาน (Turbo)",
     "to": "@architect-songsak (พี่ทรงศักดิ์ — Head of Architect)",
     "title": "CMD-005 — daily_brief LLM Failure Analysis (วิเคราะห์ก่อน ห้ามแก้)",
     "context": "Owner สั่งให้ตรวจสอบ daily_brief L1 20h ที่ fail ตั้งแต่ 2026-08-26 08:41 ด้วย error 'opencode run exit 1 UnknownError / Model not found (ref err_25ef8c00)'. CEO ตรวจสอบเบื้องต้นพบ model churn: deepseek-v4-flash-free → stealth/ox-alpha → x-preview-f-free (635701a 25 Aug) → muse-spark-1.3-contributor-free ปัจจุบัน และความไม่ตรงกัน 3 จุด (llm_provider.py vs profiles/01-ceo/config.yaml vs opencode.json). Loop ไม่รันมา 1 เดือน. งานนี้คือเฟสวิเคราะห์เท่านั้น — ยังไม่ให้แก้โค้ด",

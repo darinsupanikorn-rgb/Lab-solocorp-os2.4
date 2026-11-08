@@ -171,7 +171,7 @@ route_map = {
     'product':'product-produck','engineering':'changful','design':'design-kreet',
     'ui_designer':'ui-designer','qa':'qa','sales':'sales','support':'support',
     'web3':'web3-aywa','legal':'legal-tulya','orchestrator':'orchestrator-wut',
-    'ceo':'ceo-turbo',
+    'ceo':'ceo-hanuman',
 }
 priority_map = {'critical':0,'high':1,'normal':2,'low':3}
 db.execute('DELETE FROM routing_rules')

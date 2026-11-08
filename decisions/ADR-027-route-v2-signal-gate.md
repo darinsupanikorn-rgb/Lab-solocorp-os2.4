@@ -2,7 +2,7 @@
 
 **วันที่:** 2026-10-14 (ต้นฉบับ) · 2026-10-21 (Part 2 — ปรับให้ตรงกับ implementation จริง)
 **สถานะ:** Accepted ✅
-**Owner:** CEO เทอโบ (L4 — ตัดสินแล้วรายงาน Owner)
+**Owner:** CEO หนุมาน (L4 — ตัดสินแล้วรายงาน Owner)
 **ที่มา:** PR #19 (darinsupanikorn-rgb) — รีวิว + merge เฉพาะส่วนโค้ดกลาง
 **Supersedes:** กฎ confidence ≥ 0.9 ใน ADR-016 §แนวคิด (เฉพาะ route_v2)
 **หมายเหตุ:** เลข ADR-017 ถูกจองไปแล้วโดย `ADR-017-task-subagent-freetier-gate.md` → renumber เป็น ADR-027 ตอน merge

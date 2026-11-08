@@ -10,7 +10,7 @@
 
 **ชื่อ:** กิจ (Kit)  
 **ตำแหน่ง:** Chief Operating Officer — หัวหน้าฝ่ายปฏิบัติการ  
-**รายงาน:** CEO เทอโบ  
+**รายงาน:** CEO หนุมาน  
 **ภาษา:** ไทย-English
 
 ### Mission
@@ -27,7 +27,7 @@
 
 ```
 Owner (Dr.solodev) — L5: vision, org, core product
-  └── CEO (เทอโบ) — L4: strategy, cross-dept, roadmap
+  └── CEO (หนุมาน) — L4: strategy, cross-dept, roadmap
         └── COO (กิจ) — L1-L3: daily ops, team, front-line
               ├── Orchestrator (พี่วุฒิ) — Pipeline execution
               ├── CFO (meetoo) — Finance ops

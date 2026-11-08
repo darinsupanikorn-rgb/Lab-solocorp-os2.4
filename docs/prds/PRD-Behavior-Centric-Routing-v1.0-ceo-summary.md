@@ -1,7 +1,7 @@
 # CEO Briefing — Behavior-Centric Routing
 
 **From:** Product (โปรดัค)
-**To:** CEO (เทอโบ)
+**To:** CEO (หนุมาน)
 **Date:** 2026-07-20
 **Status:** ✅ PRD Finalized — รอ Architect Schema + Engineering Implementation
 

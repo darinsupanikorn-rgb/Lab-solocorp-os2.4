@@ -72,7 +72,7 @@ async def create_api_key(
     *,
     scope: str = DEFAULT_SCOPE,
     description: str = "",
-    created_by: str = "ceo-turbo",
+    created_by: str = "ceo-hanuman",
 ) -> dict[str, Any]:
     """Create a new API key for a department agent.
 

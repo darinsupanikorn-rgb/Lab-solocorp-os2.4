@@ -4,7 +4,7 @@
     "type": "CEO_ORDER",
     "timestamp": "2026-07-26T12:03:00+07:00",
     "priority": "P1",
-    "from": "CEO เทอโบ",
+    "from": "CEO หนุมาน",
     "to": "@orchestrator-wut (Orchestrator — พี่วุฒิ)",
     "title": "[ORDER] Activate Loop Runner — 4 Loops Never Executed",
     "context": "Loop Runner system พร้อมใช้งานเต็มที่ (4 loops defined: daily_brief, brain_auto_commit, pipeline_executor, subscription_audit) แต่ state.db ว่างเปล่า — ไม่มีการรันใดๆ เลยตั้งแต่สร้างระบบ",

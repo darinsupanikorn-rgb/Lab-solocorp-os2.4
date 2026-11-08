@@ -55,7 +55,7 @@ TEAM_SIZE_MAP = {
 }
 
 ROUTING_KEYWORDS = {
-    "01-ceo": ("vision, strategy, final decision", "@ceo-turbo"),
+    "01-ceo": ("vision, strategy, final decision", "@ceo-hanuman"),
     "02-cfo": ("budget, finance, investment, cost", "@cfo-meetoo"),
     "03-cmo": ("marketing, brand, campaign, growth", "@cmo-mark"),
     "04-orchestrator": ("pipeline coordination, workflow, handoff", "@orchestrator-wut"),

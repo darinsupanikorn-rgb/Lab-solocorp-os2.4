@@ -109,7 +109,7 @@
 
 | สถานการณ์ | ส่งไป |
 |:----------|:------|
-| พบ CRITICAL vulnerability | `@ceo-turbo` + `@cybersec-sai` — ทันที |
+| พบ CRITICAL vulnerability | `@ceo-hanuman` + `@cybersec-sai` — ทันที |
 | พบ HIGH vulnerability | `@cybersec-sai` — ภายใน 24 ชม. |
 | ต้องการ implement fix | `@changful` (Engineering) |
 | ต้องการ security review | `@cybersec-sai` |

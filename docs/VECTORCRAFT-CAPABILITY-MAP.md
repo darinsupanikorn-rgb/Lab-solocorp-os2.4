@@ -1,7 +1,7 @@
 # VectorCraft — Capability Map for SoloCorp OS
 
 > **Status:** 📄 Reference doc — D2 **ยังไม่ยืนยัน** ใน upstream (evidence ถูก gitignore จึงตรวจสอบไม่ได้)
-> **Gate:** D2 ของคนอื่น แต่ upstream ถือเป็น **D0** จนมีหลักฐานใน `bus/evidence/` · **Owner:** CEO (เทอโบ)
+> **Gate:** D2 ของคนอื่น แต่ upstream ถือเป็น **D0** จนมีหลักฐานใน `bus/evidence/` · **Owner:** CEO (หนุมาน)
 > **Vendor:** VectorCraft v0.13.1 · `storytold/vectorcraft` (ArtCraft team) · MIT OR Apache-2.0
 > **Installed:** 2026-10-19 (ที่เครื่องของผู้เขียนเอกสาร) · **Binary:** `tools/vectorcraft/vectorcraft-cli.exe` (105 MB, **Windows เท่านั้น**)
 > **Evidence:** `bus/evidence/vectorcraft/` — gitignored → ต้องรัน + แนบหลักฐานซ้ำบน Linux จึงจะอ้าง D2 ได้
@@ -71,7 +71,7 @@ Legend: ✅ **verified working in this environment** · 📖 documented, unteste
 | `transform` move/rotate/scale/reflect/shear | `@design-kreet` | layout composition | 📖 |
 | `create_graph` (9 chart types) | `@cfo-meetoo`, `@cmo-mark` | deck charts from CSV | 📖 |
 | `text_wrap` | `@cmo-mark` | text flowing around an image | 📖 |
-| `open_file` | `@ceo-turbo` | import existing `.svg`/`.pdf`/`.ai`/`.psd`/`.af` and edit | 📖 |
+| `open_file` | `@ceo-hanuman` | import existing `.svg`/`.pdf`/`.ai`/`.psd`/`.af` and edit | 📖 |
 | `export` 20 formats | **all** | `svg svgz pdf ai eps dxf emf wmf png jpg webp gif png8 tiff bmp tga psd txt vectorcraft template` | ✅ (png, svg) |
 | `save_file` / `.vectorcraft` | **all** | hand off an editable source file to a human designer | ✅ |
 | `screenshot` / `render_preview` | **all** | look at the result before export (per the vendor's own rule) | ⚠️ returned no image |

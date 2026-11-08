@@ -396,7 +396,7 @@ Use this server when you need to:
             result += f"\n**Query:** {query}\n"
             return result
 
-        return f"## Route Result\n\n**Route to:** `@ceo-turbo` (fallback — ไม่มี match ชัดเจน)\n**Query:** {query}\n\nℹ️ ไม่พบ department ที่ match โดยตรง — ส่ง CEO เพื่อพิจารณา"
+        return f"## Route Result\n\n**Route to:** `@ceo-hanuman` (fallback — ไม่มี match ชัดเจน)\n**Query:** {query}\n\nℹ️ ไม่พบ department ที่ match โดยตรง — ส่ง CEO เพื่อพิจารณา"
 
     @mcp.tool()
     def solocorp_search_profiles(keyword: str) -> str:

@@ -278,7 +278,7 @@ def _check_approval_level(amount: float, depth_mult: float = 1.0) -> dict:
     elif amount <= ceo_max:
         return {
             "level": "ceo",
-            "required": "cfo-meetoo + ceo-turbo",
+            "required": "cfo-meetoo + ceo-hanuman",
             "note": "CFO + CEO approve",
             "adjusted_thresholds": {
                 "auto_max": auto_max, "cfo_max": cfo_max, "ceo_max": ceo_max,
@@ -287,7 +287,7 @@ def _check_approval_level(amount: float, depth_mult: float = 1.0) -> dict:
     else:
         return {
             "level": "owner",
-            "required": "cfo-meetoo + ceo-turbo + dr.solodev",
+            "required": "cfo-meetoo + ceo-hanuman + dr.solodev",
             "note": "ต้อง Owner approve",
             "adjusted_thresholds": {
                 "auto_max": auto_max, "cfo_max": cfo_max, "ceo_max": ceo_max,

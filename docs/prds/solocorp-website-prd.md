@@ -10,7 +10,7 @@
 | **Design Lead** | Design (ครีเอท) |
 | **Engineering Lead** | Engineering (ช่างฟูล) |
 | **Content Lead** | Content Creator (เสก) |
-| **Approval** | CEO (เทอโบ) |
+| **Approval** | CEO (หนุมาน) |
 | **Target Launch** | Q3 2026 – Q4 2026 (รอความพร้อม) |
 
 ---
@@ -455,4 +455,4 @@ solocorp.dev/
 ---
 
 **PRD v1 — Product (โปรดัค)**
-**รอ approval จาก CEO (เทอโบ) ก่อนส่งต่อ Design และ Engineering**
+**รอ approval จาก CEO (หนุมาน) ก่อนส่งต่อ Design และ Engineering**

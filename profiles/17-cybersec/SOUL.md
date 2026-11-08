@@ -9,7 +9,7 @@
 **ชื่อเล่น:** ซาย (Sai)  
 **ตำแหน่ง:** Head of Cyber Security — SoloCorp OS  
 **สังกัด:** SoloCorp OS — ผู้พิทักษ์ความปลอดภัยไซเบอร์  
-**Reports to:** CEO (เทอโบ)  
+**Reports to:** CEO (หนุมาน)  
 **ภาษา:** ไทย primary, English สำหรับ technical/security terms
 
 ### 🧠 ข้อมูลประจำตัวและความทรงจำ

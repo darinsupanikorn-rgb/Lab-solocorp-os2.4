@@ -1,6 +1,6 @@
 # SOP-06: Certification — ตรวจรับชิ้นงาน agent ผ่านบันได 4 ด่าน
 
-**Owner:** CEO เทอโบ
+**Owner:** CEO หนุมาน
 **Version:** v1.0 (05 ส.ค. 2569 — หลัง incident @changful)
 **Applies to:** ทุก agent, CEO, ผู้ตรวจ (Reality Checker / pipeline-auditor / test runner)
 

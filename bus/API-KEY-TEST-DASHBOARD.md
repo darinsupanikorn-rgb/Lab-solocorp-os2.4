@@ -23,7 +23,7 @@ Progress: [█░░░░░░░░░] 5%
 
 | Department | Head | Status | Report | Notes |
 |------------|------|--------|--------|-------|
-| CEO | เทอโบ | ✅ PASS | [Report](evidence/2026-07-27/api-key-test-ceo-turbo.md) | 2026-07-27 07:33 |
+| CEO | เทอโบ | ✅ PASS | [Report](evidence/2026-07-27/api-key-test-ceo-hanuman.md) | 2026-07-27 07:33 |
 | COO | กิจ/Kit | ⬜ Pending | - | - |
 | CFO | meetoo | ⬜ Pending | - | - |
 | CMO | มาร์ค | ⬜ Pending | - | - |
@@ -121,7 +121,7 @@ Progress: [█░░░░░░░░░] 5%
 **Testing issues:** See `docs/API-KEY-PROTECTION-TEST.md` → Troubleshooting  
 **Questions:** #security channel  
 **Report bug:** Create issue with `[security]` tag  
-**Contact CEO:** @ceo-turbo  
+**Contact CEO:** @ceo-hanuman  
 
 ---
 
@@ -156,4 +156,4 @@ Progress: [█░░░░░░░░░] 5%
 
 ---
 
-**Last Updated:** 2026-07-27 by CEO (เทอโบ)
+**Last Updated:** 2026-07-27 by CEO (หนุมาน)

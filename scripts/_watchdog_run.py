@@ -29,7 +29,7 @@ def _report_to_ceo(summary: str, details: dict, status: str = "failed") -> bool:
     body = json.dumps({
         "source_agent": "watchdog",
         "task_id": f"watchdog-model-health-{int(time.time())}",
-        "target_agent": "ceo-turbo",
+        "target_agent": "ceo-hanuman",
         "payload": {
             "action": "report_back",
             "status": status,

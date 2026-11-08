@@ -45,8 +45,8 @@
 |:------|:----|:------------|
 | **🟢 Campaign ปกติ** | `@red-team-operator` ตัดสินใจเองได้ | Quarterly, Point-Release, Purple Team — ตาม schedule |
 | **🟡 Campaign พิเศษ** | `@cybersec-sai` (ซาย) | นอก schedule, ขยาย scope, ใช้เทคนิคใหม่ |
-| **🔴 Campaign กระทบ production** | `@ceo-turbo` + `@cybersec-sai` | ทดสอบ production จริง, ทดสอบ client-facing system |
-| **🛑 เปลี่ยน Rules of Engagement** | `@ceo-turbo` | แก้ไขขอบเขตว่าอะไรทำได้/ไม่ได้ |
+| **🔴 Campaign กระทบ production** | `@ceo-hanuman` + `@cybersec-sai` | ทดสอบ production จริง, ทดสอบ client-facing system |
+| **🛑 เปลี่ยน Rules of Engagement** | `@ceo-hanuman` | แก้ไขขอบเขตว่าอะไรทำได้/ไม่ได้ |
 
 > **หลักการ:** ถ้าไม่แน่ใจ → ถาม `@cybersec-sai` ก่อนเสมอ
 
@@ -56,7 +56,7 @@
 |:------|:----------|
 | ✅ `@red-team-operator` (Red Team Specialist) | ❌  Engineering — ขอให้ security test ได้, แต่自己做 ไม่ได้ |
 | ✅ `@cybersec-sai` (Head of Security) | ❌ External agents / third-party |
-| ✅ `@ceo-turbo` (CEO — เฉพาะ review) | ❌ CMO / Marketing / Content |
+| ✅ `@ceo-hanuman` (CEO — เฉพาะ review) | ❌ CMO / Marketing / Content |
 | ✅ Architect team (เฉพาะ pipeline audit) | ❌ Client / customer |
 | | ❌任何人都 ไม่มี authorization |
 
@@ -291,9 +291,9 @@ External Attackers (MCP Clients)
 - เผยแพร่ findings สู่สาธารณะ
 
 ### Communication
-- แจ้ง `@ceo-turbo` + `@cybersec-sai` ก่อนเริ่ม campaign
+- แจ้ง `@ceo-hanuman` + `@cybersec-sai` ก่อนเริ่ม campaign
 - ถ้าพบ CRITICAL → แจ้งทันที, หยุด campaign, fix ก่อน
-- Report ส่ง `@ceo-turbo` + `@cybersec-sai`
+- Report ส่ง `@ceo-hanuman` + `@cybersec-sai`
 
 ---
 

@@ -1,6 +1,6 @@
 # 🏃 Sprint: Clear Overdue — v1
 
-**Owner:** CEO เทอโบ  
+**Owner:** CEO หนุมาน  
 **Start:** 2026-07-27  
 **Duration:** 1-2 สัปดาห์  
 **Status:** ACTIVE  
