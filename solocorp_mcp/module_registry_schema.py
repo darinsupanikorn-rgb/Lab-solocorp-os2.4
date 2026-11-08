@@ -20,6 +20,8 @@ from datetime import datetime
 from pathlib import Path
 from typing import Any
 
+from .auth import SCOPE_LEVELS
+
 # --- Schema constants -----------------------------------------------------
 
 # Statuses that describe intent and therefore live in the tracked config.
@@ -33,9 +35,14 @@ VALID_STATUSES = PERSISTENT_STATUSES | RUNTIME_STATUSES
 # Transport values allowed in config.
 VALID_TRANSPORTS = frozenset({"stdio"})
 
+# Capability allow-list (standard MCP capability groups).
+VALID_CAPABILITIES = frozenset({"tools", "resources", "prompts"})
+
 # Field names per file layer.
 CONFIG_REQUIRED_FIELDS = frozenset({"status", "transport", "command"})
-CONFIG_OPTIONAL_FIELDS = frozenset({"description", "updated_at"})
+CONFIG_OPTIONAL_FIELDS = frozenset(
+    {"description", "updated_at", "permissions", "version", "capabilities", "dependencies", "entry_repo"}
+)
 CONFIG_ALL_FIELDS = CONFIG_REQUIRED_FIELDS | CONFIG_OPTIONAL_FIELDS
 
 STATE_REQUIRED_FIELDS = frozenset({"status", "last_checked"})
@@ -45,7 +52,7 @@ STATE_ALL_FIELDS = STATE_REQUIRED_FIELDS | STATE_OPTIONAL_FIELDS
 META_FIELDS = frozenset({"last_updated", "total_modules", "schema_version"})
 
 # Bump when the on-disk shape changes in a way old readers cannot accept.
-SCHEMA_VERSION = 1
+SCHEMA_VERSION = 2
 
 # --- Errors ---------------------------------------------------------------
 
@@ -73,6 +80,18 @@ def _non_empty_string_list(value: Any) -> bool:
         and len(value) > 0
         and all(isinstance(item, str) and item for item in value)
     )
+
+
+def _string_list(value: Any) -> bool:
+    """List of non-empty strings; empty list allowed, duplicates allowed."""
+    return isinstance(value, list) and all(
+        isinstance(item, str) and item for item in value
+    )
+
+
+def _unique_string_list(value: Any) -> bool:
+    """List of non-empty strings with no duplicates; empty list allowed."""
+    return _string_list(value) and len(value) == len(set(value))
 
 
 def validate_meta(meta: Any, file_label: str) -> list[str]:
@@ -157,6 +176,61 @@ def validate_config_module(module_id: str, entry: Any) -> list[str]:
     # updated_at.
     if "updated_at" in entry and not _is_iso_timestamp(entry["updated_at"]):
         errors.append(f"{prefix}: updated_at must be an ISO 8601 timestamp")
+
+    # permissions — declarative metadata, NOT a caller gate.
+    # Structural violations are errors; unknown scope items are fail-open
+    # (kept, module still loads — warning reported at registry layer).
+    if "permissions" in entry:
+        perms = entry["permissions"]
+        if not _unique_string_list(perms):
+            errors.append(
+                f"{prefix}: permissions must be a list of non-empty unique strings"
+            )
+        else:
+            for item in perms:
+                if item not in SCOPE_LEVELS:
+                    # Unknown scope: kept as-is, fail-open. Not a fatal error.
+                    pass
+
+    # version — declarative, non-empty string when present.
+    if "version" in entry:
+        version_value = entry["version"]
+        if not isinstance(version_value, str) or not version_value.strip():
+            errors.append(f"{prefix}: version must be a non-empty string")
+
+    # capabilities — allow-list {"tools","resources","prompts"}.
+    if "capabilities" in entry:
+        caps = entry["capabilities"]
+        if not _unique_string_list(caps):
+            errors.append(
+                f"{prefix}: capabilities must be a list of non-empty unique strings"
+            )
+        else:
+            for item in caps:
+                if item not in VALID_CAPABILITIES:
+                    errors.append(
+                        f"{prefix}: capabilities item {item!r} not in "
+                        f"{sorted(VALID_CAPABILITIES)}"
+                    )
+
+    # dependencies — list of non-empty unique strings, no self-dependency.
+    if "dependencies" in entry:
+        deps = entry["dependencies"]
+        if not _unique_string_list(deps):
+            errors.append(
+                f"{prefix}: dependencies must be a list of non-empty unique strings"
+            )
+        else:
+            if module_id in deps:
+                errors.append(
+                    f"{prefix}: dependencies must not include self ('{module_id}')"
+                )
+
+    # entry_repo — non-empty string ("internal" | relative path | absolute URL).
+    if "entry_repo" in entry:
+        repo = entry["entry_repo"]
+        if not isinstance(repo, str) or not repo.strip():
+            errors.append(f"{prefix}: entry_repo must be a non-empty string")
 
     return errors
 

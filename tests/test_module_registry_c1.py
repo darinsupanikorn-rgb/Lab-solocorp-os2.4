@@ -298,7 +298,7 @@ def test_persistent_view_blocks_runtime_keys_and_meta_has_schema_version(
 
     registry.update("qa", "disabled")
     meta = _read(Path(registry.path))["_meta"]
-    assert meta["schema_version"] == 1
+    assert meta["schema_version"] == 2
     assert meta["total_modules"] == 5
 
 

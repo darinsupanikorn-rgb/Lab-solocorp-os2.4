@@ -45,6 +45,8 @@ from .module_registry_schema import (
     validate_state,
 )
 
+from .auth import SCOPE_LEVELS
+
 ROOT = Path(__file__).resolve().parent.parent
 
 # Tracked config — belongs in git.
@@ -117,6 +119,27 @@ def _state_warnings(state: _StateRead) -> list[str]:
         )
     if state.error is not None:
         warnings.append(f"state invalid: {state.error}")
+    return warnings
+
+
+def _permissions_warnings(config: dict[str, dict[str, Any]]) -> list[str]:
+    """Warn when a module declares a permission scope not yet in SCOPE_LEVELS.
+
+    Fail-open: the value is kept and the module still loads. This is a
+    declarative-metadata warning only — it never enforces or blocks anything
+    (permissions is metadata, not a caller gate; ``require_scope`` is untouched).
+    """
+
+    warnings: list[str] = []
+    for module_id, entry in config.items():
+        perms = entry.get("permissions")
+        if isinstance(perms, list):
+            for item in perms:
+                if isinstance(item, str) and item not in SCOPE_LEVELS:
+                    warnings.append(
+                        f"module '{module_id}': permission scope {item!r} "
+                        f"not in SCOPE_LEVELS (kept, fail-open)"
+                    )
     return warnings
 
 
@@ -340,6 +363,8 @@ class ModuleRegistry:
         modules = self._merged(config, state.entries)
         meta = self._config_meta()
         warnings = [] if errors else _state_warnings(state)
+        if not errors:
+            warnings.extend(_permissions_warnings(config))
 
         def count(status: str) -> int:
             return sum(

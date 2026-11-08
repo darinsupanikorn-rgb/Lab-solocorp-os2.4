@@ -7,7 +7,17 @@
       "-m",
       "solocorp_mcp.server"
     ],
-    "description": "Core MCP — Organization & Routing"
+    "description": "Core MCP — Organization & Routing",
+    "version": "1.0.0",
+    "capabilities": [
+      "tools",
+      "resources"
+    ],
+    "dependencies": [],
+    "entry_repo": "internal",
+    "permissions": [
+      "admin"
+    ]
   },
   "central-bus": {
     "status": "enabled",
@@ -17,7 +27,17 @@
       "-m",
       "solocorp_mcp.bus_mcp"
     ],
-    "description": "Central Bus — Storage & Queue"
+    "description": "Central Bus — Storage & Queue",
+    "version": "0.9.0",
+    "capabilities": [
+      "tools",
+      "resources"
+    ],
+    "dependencies": [
+      "busd"
+    ],
+    "entry_repo": "internal",
+    "permissions": []
   },
   "content-creator": {
     "status": "enabled",
@@ -27,7 +47,18 @@
       "-m",
       "solocorp_mcp.departments.content_mcp"
     ],
-    "description": "Content Creator Department"
+    "description": "Content Creator Department",
+    "version": "0.3.0",
+    "capabilities": [
+      "tools",
+      "resources"
+    ],
+    "dependencies": [],
+    "entry_repo": "internal",
+    "permissions": [
+      "team"
+    ],
+    "updated_at": "2026-11-08T08:22:24.581575+00:00"
   },
   "engineering": {
     "status": "enabled",
@@ -37,7 +68,16 @@
       "-m",
       "solocorp_mcp.departments.engineering_mcp"
     ],
-    "description": "Engineering Department"
+    "description": "Engineering Department",
+    "version": "0.1.0",
+    "capabilities": [
+      "tools"
+    ],
+    "dependencies": [
+      "solocorp"
+    ],
+    "entry_repo": "internal",
+    "permissions": []
   },
   "qa": {
     "status": "enabled",
@@ -47,6 +87,23 @@
       "-m",
       "solocorp_mcp.departments.qa_mcp"
     ],
-    "description": "QA Department"
+    "description": "QA Department",
+    "version": "0.2.0",
+    "capabilities": [
+      "tools",
+      "resources"
+    ],
+    "dependencies": [
+      "solocorp"
+    ],
+    "entry_repo": "internal",
+    "permissions": [
+      "public"
+    ]
+  },
+  "_meta": {
+    "last_updated": "2026-11-08T08:22:24.582085+00:00",
+    "total_modules": 5,
+    "schema_version": 2
   }
 }
