@@ -161,6 +161,8 @@
       "enabled": true,
       "timeout": 1800000,
       "env": {
+        "CONCAT_BIN": "C:\\Users\\Lenovo\\AppData\\Local\\Programs\\Concat\\concat.exe",
+        "CONCAT_MCP_ROOTS": "C:\\Users\\Lenovo\\Desktop\\Lab-solocorp-os2.4\\central_bus\\content",
         "EARSHOT_OFFLINE": "1",
         "HF_HUB_OFFLINE": "1",
         "TRANSFORMERS_OFFLINE": "1"
@@ -182,9 +184,9 @@
     },
     "concat": {
       "type": "local",
-      "command": ["/home/drsolodev/.opencode/concat/Concat-0.2.8-x86_64.AppImage", "--mcp", "headless"],
+      "command": ["C:\\Users\\Lenovo\\AppData\\Local\\Programs\\Concat\\concat.exe", "--mcp", "headless"],
       "cwd": ".",
-      "enabled": false,
+      "enabled": true,
       "timeout": 1800000,
       "env": {
         "CONCAT_MCP_ROOTS": "/data/projects/Lab-solocorp-os2.4/central_bus/content",
@@ -194,9 +196,12 @@
     },
     "github": {
       "type": "local",
-      "command": ["gh", "mcp"],
+      "command": ["tools/github-mcp/github-mcp-server.exe", "stdio"],
       "enabled": true,
-      "timeout": 60000
+      "timeout": 60000,
+      "env": {
+        "GITHUB_PERSONAL_ACCESS_TOKEN": "{env:GITHUB_PERSONAL_ACCESS_TOKEN}"
+      }
     }
   },
 
