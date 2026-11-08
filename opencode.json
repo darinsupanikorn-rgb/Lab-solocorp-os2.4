@@ -134,12 +134,12 @@
       "type": "local",
       "command": ["tools/stealth-browser-mcp/venv/bin/python3", "-m", "server"],
       "cwd": "tools/stealth-browser-mcp/src",
-      "enabled": true,
+      "enabled": false,
       "timeout": 60000
     },
     "solocorp": {
       "type": "local",
-      "command": [".venv/bin/python3", "-m", "solocorp_mcp.server"],
+      "command": [".venv/Scripts/python.exe", "-m", "solocorp_mcp.server"],
       "cwd": ".",
       "enabled": true,
       "timeout": 60000,
@@ -149,40 +149,33 @@
     },
     "central-bus": {
       "type": "local",
-      "command": [".venv/bin/python3", "-m", "solocorp_mcp.bus_mcp"],
+      "command": [".venv/Scripts/python.exe", "-m", "solocorp_mcp.bus_mcp"],
       "cwd": ".",
       "enabled": true,
       "timeout": 60000
     },
     "content-creator": {
       "type": "local",
-      "command": [".venv/bin/python3", "-m", "solocorp_mcp.departments.content_mcp"],
+      "command": [".venv/Scripts/python.exe", "-m", "solocorp_mcp.departments.content_mcp"],
       "cwd": ".",
       "enabled": true,
       "timeout": 1800000,
       "env": {
-        "CONCAT_BIN": "/home/drsolodev/.opencode/concat/Concat-0.2.8-x86_64.AppImage",
-        "CONCAT_MCP_ROOTS": "/data/projects/Lab-solocorp-os2.4/central_bus/content",
-        "EARSHOT_BIN": "/home/drsolodev/.opencode/earshot/venv-cpu/bin/earshot",
-        "EARSHOT_HOME": "/home/drsolodev/.opencode/earshot/cache",
-        "EARSHOT_THREADS": "4",
         "EARSHOT_OFFLINE": "1",
         "HF_HUB_OFFLINE": "1",
-        "TRANSFORMERS_OFFLINE": "1",
-        "XDG_CONFIG_HOME": "/home/drsolodev/.opencode/concat/config",
-        "XDG_DATA_HOME": "/home/drsolodev/.opencode/concat/data"
+        "TRANSFORMERS_OFFLINE": "1"
       }
     },
     "engineering": {
       "type": "local",
-      "command": [".venv/bin/python3", "-m", "solocorp_mcp.departments.engineering_mcp"],
+      "command": [".venv/Scripts/python.exe", "-m", "solocorp_mcp.departments.engineering_mcp"],
       "cwd": ".",
       "enabled": true,
       "timeout": 60000
     },
     "qa": {
       "type": "local",
-      "command": [".venv/bin/python3", "-m", "solocorp_mcp.departments.qa_mcp"],
+      "command": [".venv/Scripts/python.exe", "-m", "solocorp_mcp.departments.qa_mcp"],
       "cwd": ".",
       "enabled": true,
       "timeout": 60000
@@ -191,7 +184,7 @@
       "type": "local",
       "command": ["/home/drsolodev/.opencode/concat/Concat-0.2.8-x86_64.AppImage", "--mcp", "headless"],
       "cwd": ".",
-      "enabled": true,
+      "enabled": false,
       "timeout": 1800000,
       "env": {
         "CONCAT_MCP_ROOTS": "/data/projects/Lab-solocorp-os2.4/central_bus/content",
