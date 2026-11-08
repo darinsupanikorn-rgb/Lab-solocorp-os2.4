@@ -36,7 +36,7 @@ def last_session() -> dict:
     log = BRAIN_DIR / "session-log.md"
     if not log.exists():
         return {"summary": "no sessions yet"}
-    text = log.read_text()
+    text = log.read_text(encoding="utf-8")
     sessions = text.split("## Session #")
     if len(sessions) < 2:
         return {"summary": "no sessions yet"}
@@ -76,7 +76,7 @@ def active_dispatches() -> list[dict]:
             if f.suffix != ".json":
                 continue
             try:
-                data = json.loads(f.read_text())
+                data = json.loads(f.read_text(encoding="utf-8"))
                 status = data.get("status", data.get("command", {}).get("status", "unknown"))
                 if status in ("pending", "in_progress", "assigned"):
                     active.append({
@@ -102,7 +102,7 @@ def queue_depth() -> dict:
         name = qfile.stem
         if name in counts:
             try:
-                lines = qfile.read_text().strip().split("\n")
+                lines = qfile.read_text(encoding="utf-8").strip().split("\n")
                 counts[name] = len([l for l in lines if l.strip()])
             except Exception:
                 pass
@@ -115,7 +115,7 @@ def pending_from_brain() -> list[str]:
     if not mem.exists():
         return []
     try:
-        data = json.loads(mem.read_text())
+        data = json.loads(mem.read_text(encoding="utf-8"))
         sessions = data.get("sessions", [])
         if sessions:
             last = sessions[-1]
@@ -223,6 +223,7 @@ def format_markdown(data: dict) -> str:
 
 
 if __name__ == "__main__":
+    sys.stdout.reconfigure(encoding="utf-8", errors="replace")
     data = bootstrap()
     if "--json" in sys.argv:
         print(json.dumps(data, indent=2, ensure_ascii=False))
